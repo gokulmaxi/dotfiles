@@ -87,10 +87,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/gruvbox-material"
   },
-  ["markdown-preview.nvim"] = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim"
-  },
   neoformat = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/neoformat"
@@ -126,6 +122,10 @@ _G.packer_plugins = {
   tabular = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

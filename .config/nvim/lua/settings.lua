@@ -1,4 +1,4 @@
-
+require('lsp')
 
 local cmd = vim.cmd
 local o = vim.o
@@ -8,7 +8,7 @@ local indent = 4
 
 cmd 'syntax enable'
 cmd 'filetype plugin indent on'
-
+cmd 'set encoding=UTF-8'
 bo.shiftwidth = indent
 bo.tabstop = indent
 bo.softtabstop = indent
@@ -25,6 +25,8 @@ wo.number = true
 wo.relativenumber = false
 wo.scrolloff = 8
 wo.cursorline = true
+--auto complete
+vim.o.completeopt = "menuone,noselect"
 
 cmd [[
 set expandtab smarttab shiftround autoindent smartindent smartcase

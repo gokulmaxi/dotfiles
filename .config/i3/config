@@ -43,7 +43,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty 
+bindsym $mod+Return exec kitty 
 
 # kill focused window
 bindsym $mod+q kill
@@ -182,8 +182,8 @@ bar {
         status_command i3status
 }
 # window rules, you can find the window class using xprop
-for_window [class=".*"] border pixel 4
-assign [class=alacritty] 1
+for_window [class=".*"] border pixel 2
+assign [class=kitty] 1
 assign [class=Firefox|Transmission-gtk] 2
 assign [class=Thunar|File-roller|code] 3
 assign [class=Geany|Evince|Gucharmap|Soffice|libreoffice*] 4

@@ -23,3 +23,5 @@ require('plugins')
 require('config')
 --load keymapping
 require('keymapping')
+--load lsp config
+require('lang')

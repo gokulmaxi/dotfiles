@@ -13,7 +13,7 @@ return require('packer').startup(function()
     use {'hrsh7th/vim-vsnip'}
     use {'rafamadriz/friendly-snippets'}
     --    use {'cstrap/python-snippets'}
-    use{'nvim-lua/completion-nvim'}
+    -- use {'nvim-lua/completion-nvim'}
     --    use {'ylcnfrht/vscode-python-snippet-pack'}
     --    use {'xabikos/vscode-javascript'}
     --    use {'golang/vscode-go'}
@@ -36,40 +36,32 @@ return require('packer').startup(function()
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
-    use{'norcalli/nvim-colorizer.lua'}
+    use {'norcalli/nvim-colorizer.lua'}
 
-    --     -- use {'nvim-treesitter/playground'}
+    -- Autocomplete
+    use {
+        "hrsh7th/nvim-compe",
+        opt = true
+    }
 
-    --     -- Dashboard
-    --     use {'glepnir/dashboard-nvim'}
-
-    --     -- Status line
-    --     use {
-    --         'glepnir/galaxyline.nvim',
-    --         branch = 'main',
-    --         config = function() require 'statusline' end
-    --     }
-
-    --     -- Debugging
-    --     use {'puremourning/vimspector'}
-    --     use {'nvim-telescope/telescope-vimspector.nvim'}
-
-    --     -- Telescope fzf
     use {
         'nvim-telescope/telescope.nvim',
         requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
     }
-    use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'}
+    use {
+        'nvim-telescope/telescope-fzf-native.nvim',
+        run = 'make'
+    }
 
-    --     -- Project
-    --    use {'nvim-telescope/telescope-project.nvim'}
-    --     use {'airblade/vim-rooter'}
-    --     -- use {'tpope/vim-projectionist'}
     -- themes
     use {'arcticicestudio/nord-vim'}
     use {'sainnhe/gruvbox-material'}
+    use {"christianchiarulli/nvcode-color-schemes.vim", opt = true}
     --     -- Markdown
-    use {'npxbr/glow.nvim', run = ':GlowInstall'}
+    use {
+        'npxbr/glow.nvim',
+        run = ':GlowInstall'
+    }
     use {'mzlogin/vim-markdown-toc'}
     use {
         'iamcco/markdown-preview.nvim',
@@ -78,13 +70,9 @@ return require('packer').startup(function()
     use {'godlygeek/tabular'}
     use {'plasticboy/vim-markdown'}
 
-    --     -- Embed in browser
-    --     -- use {'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end }
-
-    --     -- Neoterm
-    --     -- use {'kassio/neoterm' }
-
-    --     -- Better terminal
-    --     -- use {'nikvdp/neomux' }
-
+    -- dev icons
+    use {
+        "kyazdani42/nvim-web-devicons",
+        opt = true
+    }
 end)
