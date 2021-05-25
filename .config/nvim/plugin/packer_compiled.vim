@@ -71,10 +71,6 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
-  ["completion-nvim"] = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/completion-nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/friendly-snippets"
@@ -87,17 +83,38 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/gruvbox-material"
   },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim"
+  },
   neoformat = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/neoformat"
+  },
+  ["nlua.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nlua.nvim"
   },
   ["nord-vim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nord-vim"
   },
+  ["nvcode-color-schemes.vim"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/opt/nvcode-color-schemes.vim"
+  },
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+  },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -106,6 +123,11 @@ _G.packer_plugins = {
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -130,6 +152,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/ultisnips"
   },
   ["vim-markdown"] = {
     loaded = true,

@@ -1,3 +1,35 @@
+local execute = vim.api.nvim_command
+local fn = vim.fn
+
+local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
+
+if fn.empty(fn.glob(install_path)) > 0 then
+    execute("!git clone https://github.com/wbthomason/packer.nvim " .. install_path)
+    execute "packadd packer.nvim"
+end
+
+--- Check if a file or directory exists in this path
+local function require_plugin(plugin)
+    local plugin_prefix = fn.stdpath("data") .. "/site/pack/packer/opt/"
+
+    local plugin_path = plugin_prefix .. plugin .. "/"
+    --	print('test '..plugin_path)
+    local ok, err, code = os.rename(plugin_path, plugin_path)
+    if not ok then
+        if code == 13 then
+            -- Permission denied, but it exists
+            return true
+        end
+    end
+    --	print(ok, err, code)
+    if ok then
+        vim.cmd("packadd " .. plugin)
+    end
+    return ok, err, code
+end
+
+vim.cmd "autocmd BufWritePost plugins.lua PackerCompile" -- Auto compile when there are changes in plugins.lua
+
 return require('packer').startup(function()
 
     -- Packer can manage itself as an optional plugin
@@ -7,24 +39,19 @@ return require('packer').startup(function()
     }
     -- LSP config
     use {'neovim/nvim-lspconfig'}
+    use {
+        "glepnir/lspsaga.nvim",
+        opt = false
+    }
     -- use { 'kabouzeid/nvim-lspinstall'}
     use {'sbdchd/neoformat'}
     -- Snippets
     use {'hrsh7th/vim-vsnip'}
     use {'rafamadriz/friendly-snippets'}
-    --    use {'cstrap/python-snippets'}
-    -- use {'nvim-lua/completion-nvim'}
-    --    use {'ylcnfrht/vscode-python-snippet-pack'}
-    --    use {'xabikos/vscode-javascript'}
-    --    use {'golang/vscode-go'}
-    --    use {'rust-lang/vscode-rust'}
-    -- use { 'honza/vim-snippets' }
-    -- use { 'SirVer/ultisnips' }
-    -- use { 'norcalli/snippets.nvim' }
-    -- use { 'nvim-telescope/telescope-snippets.nvim' }
+    use {'SirVer/ultisnips'}
 
     -- Lua development
-    --    use {'tjdevries/nlua.nvim'}
+    use {'tjdevries/nlua.nvim'}
 
     -- Plugin development
     --    use {'thinca/vim-themis'}
@@ -41,7 +68,7 @@ return require('packer').startup(function()
     -- Autocomplete
     use {
         "hrsh7th/nvim-compe",
-        opt = true
+        opt = false
     }
 
     use {
@@ -56,7 +83,6 @@ return require('packer').startup(function()
     -- themes
     use {'arcticicestudio/nord-vim'}
     use {'sainnhe/gruvbox-material'}
-    use {"christianchiarulli/nvcode-color-schemes.vim", opt = true}
     --     -- Markdown
     use {
         'npxbr/glow.nvim',
@@ -71,8 +97,5 @@ return require('packer').startup(function()
     use {'plasticboy/vim-markdown'}
 
     -- dev icons
-    use {
-        "kyazdani42/nvim-web-devicons",
-        opt = true
-    }
+    use {"kyazdani42/nvim-web-devicons"}
 end)

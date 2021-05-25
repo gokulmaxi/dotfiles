@@ -65,14 +65,15 @@ augroup END
 
 vim.api.nvim_exec([[
     fun! TrimWhitespace()
-        let l:save = winsaveview()
+        let l:save = winsaveview() ..
+        
         keeppatterns %s/\s\+$//e
         call winrestview(l:save)
     endfun
     autocmd FileType go,rust,html,typescript,javascript,python autocmd BufWritePre <buffer> call TrimWhitespace()
 ]], false)
 --set colour scheme and use transparent background
-cmd 'colorscheme nord'
+cmd 'colorscheme nord-custom'
 vim.cmd [[ silent! hi Normal guibg=none ctermbg=none ]]
 
 
