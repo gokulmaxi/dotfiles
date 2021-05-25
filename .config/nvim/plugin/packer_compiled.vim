@@ -71,9 +71,17 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
+  ["completion-nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/completion-nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+  },
+  ["glow.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/glow.nvim"
   },
   ["gruvbox-material"] = {
     loaded = true,

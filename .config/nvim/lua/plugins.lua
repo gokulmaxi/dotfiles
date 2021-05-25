@@ -59,6 +59,7 @@ return require('packer').startup(function()
         'nvim-telescope/telescope.nvim',
         requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
     }
+    use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'}
 
     --     -- Project
     --    use {'nvim-telescope/telescope-project.nvim'}
@@ -68,7 +69,7 @@ return require('packer').startup(function()
     use {'arcticicestudio/nord-vim'}
     use {'sainnhe/gruvbox-material'}
     --     -- Markdown
-    --   use {'npxbr/glow.nvim', run = ':GlowInstall'}
+    use {'npxbr/glow.nvim', run = ':GlowInstall'}
     use {'mzlogin/vim-markdown-toc'}
     use {
         'iamcco/markdown-preview.nvim',

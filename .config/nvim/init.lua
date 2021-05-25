@@ -21,3 +21,5 @@ vim.cmd 'autocmd BufWritePost plugins.lua PackerCompile' -- Auto compile when th
 require('plugins')
 -- load config
 require('config')
+--load keymapping
+require('keymapping')
