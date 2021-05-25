@@ -69,4 +69,8 @@ vim.api.nvim_exec([[
     endfun
     autocmd FileType go,rust,html,typescript,javascript,python autocmd BufWritePre <buffer> call TrimWhitespace()
 ]], false)
+--set colour scheme and use transparent background
 cmd 'colorscheme nord'
+vim.cmd [[ silent! hi Normal guibg=none ctermbg=none ]]
+
+
