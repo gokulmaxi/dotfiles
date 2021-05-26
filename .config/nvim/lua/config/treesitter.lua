@@ -11,6 +11,14 @@ require'nvim-treesitter.configs'.setup {
     persist_queries = false -- Whether the query persists across vim sessions
   },
   rainbow = {
-    enable = true
+    enable = true,
+    colors = {
+      -- Colors here
+      "#bf616a",
+      "#d08770",
+      "#ebcb8b",
+      "#a3be8c",
+      "#b48ead"
+    }
   }
 }

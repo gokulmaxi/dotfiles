@@ -1,5 +1,6 @@
 require('config.treesitter')
 require('config.telescope')
 require('config.g-compe')
-
-
+require('config.which-key')
+require('config.galaxyline')
+require('config.rainbow')

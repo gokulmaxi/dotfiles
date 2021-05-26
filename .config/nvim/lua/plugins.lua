@@ -33,30 +33,16 @@ vim.cmd "autocmd BufWritePost plugins.lua PackerCompile" -- Auto compile when th
 return require('packer').startup(function()
 
     -- Packer can manage itself as an optional plugin
-    use {
-        'wbthomason/packer.nvim',
-        opt = false
-    }
+    use {'wbthomason/packer.nvim'}
     -- LSP config
     use {'neovim/nvim-lspconfig'}
-    use {
-        "glepnir/lspsaga.nvim",
-        opt = false
-    }
-    -- use { 'kabouzeid/nvim-lspinstall'}
+    use {"glepnir/lspsaga.nvim"}
     use {'sbdchd/neoformat'}
     -- Snippets
     use {'hrsh7th/vim-vsnip'}
     use {'rafamadriz/friendly-snippets'}
-    use {'SirVer/ultisnips'}
-
     -- Lua development
     use {'tjdevries/nlua.nvim'}
-
-    -- Plugin development
-    --    use {'thinca/vim-themis'}
-    --    use {'tpope/vim-scriptease'}
-    --    use {'junegunn/vader.vim'}
 
     --     -- Better syntax
     use {
@@ -79,7 +65,9 @@ return require('packer').startup(function()
         'nvim-telescope/telescope-fzf-native.nvim',
         run = 'make'
     }
-
+    -- Status Line and Bufferline
+    use {"glepnir/galaxyline.nvim"}
+    use {"romgrk/barbar.nvim"}
     -- themes
     use {'arcticicestudio/nord-vim'}
     use {'sainnhe/gruvbox-material'}
@@ -95,7 +83,13 @@ return require('packer').startup(function()
     }
     use {'godlygeek/tabular'}
     use {'plasticboy/vim-markdown'}
-
+    -- which key to pop up keybindings
+    use {"folke/which-key.nvim"}
     -- dev icons
     use {"kyazdani42/nvim-web-devicons"}
+    use {"windwp/nvim-autopairs"}
+    use {"terrortylor/nvim-comment"}
+    use {"kevinhwang91/nvim-bqf"}
+    --rainbow coloriser
+    use {"p00f/nvim-ts-rainbow"} 
 end)
