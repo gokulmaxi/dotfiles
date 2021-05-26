@@ -47,20 +47,20 @@ require'compe'.setup {
     }
 }
 
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities.textDocument.completion.completionItem.snippetSupport = true
-capabilities.textDocument.completion.completionItem.resolveSupport = {
-  properties = {
-      'path',
-    'documentation',
-    'detail',
-    'additionalTextEdits',
-  }
-}
+-- local capabilities = vim.lsp.protocol.make_client_capabilities()
+-- capabilities.textDocument.completion.completionItem.snippetSupport = true
+-- capabilities.textDocument.completion.completionItem.resolveSupport = {
+--   properties = {
+--       'path',
+--     'documentation',
+--     'detail',
+--     'additionalTextEdits',
+--   }
+-- }
 
-require'lspconfig'.rust_analyzer.setup {
-  capabilities = capabilities,
-}
+-- require'lspconfig'.rust_analyzer.setup {
+--   capabilities = capabilities,
+-- }
 
 local t = function(str)
     return vim.api.nvim_replace_termcodes(str, true, true, true)
