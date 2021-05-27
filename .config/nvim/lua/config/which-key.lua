@@ -1,3 +1,4 @@
+
 require("which-key").setup {
     plugins = {
         marks = true, -- shows a list of your marks on ' and `
@@ -26,8 +27,14 @@ require("which-key").setup {
         padding = {2, 2, 2, 2} -- extra window padding [top, right, bottom, left]
     },
     layout = {
-        height = {min = 4, max = 25}, -- min and max height of the columns
-        width = {min = 20, max = 50}, -- min and max width of the columns
+        height = {
+            min = 4,
+            max = 25
+        }, -- min and max height of the columns
+        width = {
+            min = 20,
+            max = 50
+        }, -- min and max width of the columns
         spacing = 3 -- spacing between columns
     },
     hidden = {"<silent>", "<cmd>", "<Cmd>", "<CR>", "call", "lua", "^:", "^ "}, -- hide mapping boilerplate
@@ -44,27 +51,51 @@ local opts = {
 }
 
 -- Set leader
-vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', {
+    noremap = true,
+    silent = true
+})
 vim.g.mapleader = ' '
 
 -- no hl
-vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', {
+    noremap = true,
+    silent = true
+})
 
 -- explorer
-vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', {
+    noremap = true,
+    silent = true
+})
 
 -- telescope
-vim.api.nvim_set_keymap('n', '<Leader>f', ':Telescope find_files<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>f', ':Telescope find_files<CR>', {
+    noremap = true,
+    silent = true
+})
 
 -- dashboard
-vim.api.nvim_set_keymap('n', '<Leader>;', ':Dashboard<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>;', ':Dashboard<CR>', {
+    noremap = true,
+    silent = true
+})
 
 -- Comments
-vim.api.nvim_set_keymap("n", "<leader>/", ":CommentToggle<CR>", {noremap = true, silent = true})
-vim.api.nvim_set_keymap("v", "<leader>/", ":CommentToggle<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>/", ":CommentToggle<CR>", {
+    noremap = true,
+    silent = true
+})
+vim.api.nvim_set_keymap("v", "<leader>/", ":CommentToggle<CR>", {
+    noremap = true,
+    silent = true
+})
 
 -- close buffer
-vim.api.nvim_set_keymap("n", "<leader>c", ":BufferClose<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>c", ":BufferClose<CR>", {
+    noremap = true,
+    silent = true
+})
 
 -- TODO create entire treesitter section
 
@@ -74,15 +105,18 @@ local mappings = {
     ["e"] = "Explorer",
     ["f"] = "Find File",
     ["h"] = "No Highlight",
-    --TODO enable debuging for c and cpp programs
+    -- TODO enable debuging for c and cpp programs
+    -- utils.map('n', '<Leader>d', '<Cmd>call vimspector#Launch()<CR>')
     d = {
         name = "+Debug",
-        b = {"<cmd>DebugToggleBreakpoint<cr>", "Toggle Breakpoint"},
-        c = {"<cmd>DebugContinue<cr>", "Continue"},
-        i = {"<cmd>DebugStepInto<cr>", "Step Into"},
-        o = {"<cmd>DebugStepOver<cr>", "Step Over"},
-        r = {"<cmd>DebugToggleRepl<cr>", "Toggle Repl"},
-        s = {"<cmd>DebugStart<cr>", "Start"}
+        b = {"<cmd>call vimspector#ToggleBreakpoint()<cr>", "Toggle Breakpoint"},
+        c = {"<cmd>call vimspector#Continue()<cr>", "Continue"},
+        i = {"<cmd>call vimspector#StepInto()", "Step Into"},
+        o = {"<cmd>call vimspector#StepOver()<cr>", "Step Over"},
+        p = {"<cmd>call vimspector#Pause()<cr>", "Pause"},
+        r = {"<cmd>call vimspector#Restart()<cr>", "Restart"},
+        s = {"<cmd>:lua cPer.startDebuging()<cr>", "Start"},
+        x = {"<cmd>call vimspector#Reset()<cr>", "close"}
     },
     g = {
         name = "+Git",
@@ -96,7 +130,7 @@ local mappings = {
         o = {"<cmd>Telescope git_status<cr>", "Open changed file"},
         b = {"<cmd>Telescope git_branches<cr>", "Checkout branch"},
         c = {"<cmd>Telescope git_commits<cr>", "Checkout commit"},
-        C = {"<cmd>Telescope git_bcommits<cr>", "Checkout commit(for current file)"},
+        C = {"<cmd>Telescope git_bcommits<cr>", "Checkout commit(for current file)"}
     },
     l = {
         name = "+LSP",
@@ -130,7 +164,11 @@ local mappings = {
         R = {"<cmd>Telescope registers<cr>", "Registers"},
         t = {"<cmd>Telescope live_grep<cr>", "Text"}
     },
-    S = {name = "+Session", s = {"<cmd>SessionSave<cr>", "Save Session"}, l = {"<cmd>SessionLoad<cr>", "Load Session"}}
+    S = {
+        name = "+Session",
+        s = {"<cmd>SessionSave<cr>", "Save Session"},
+        l = {"<cmd>SessionLoad<cr>", "Load Session"}
+    }
 }
 
 local wk = require("which-key")

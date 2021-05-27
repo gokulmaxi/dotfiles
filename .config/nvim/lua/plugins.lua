@@ -93,6 +93,6 @@ return require('packer').startup(function()
     use {"p00f/nvim-ts-rainbow"} 
     --ctags
     use('preservim/tagbar')
-    --codi
-    use('metakirby5/codi.vim')
+    --debugging
+    use('puremourning/vimspector')
 end)

@@ -25,6 +25,7 @@ wo.number = true
 wo.relativenumber = false
 wo.scrolloff = 8
 wo.cursorline = true
+
 --auto complete
 vim.o.completeopt = "menuone,noselect"
 
@@ -77,5 +78,5 @@ cmd 'colorscheme nord-custom'
 vim.cmd [[ silent! hi Normal guibg=none ctermbg=none ]]
 --easy esc 
 vim.cmd [[imap <C-space> <Esc>]]
-vim.cmd [[map <F8> :w <CR> :!gcc % -o %< && ./%< <CR>]]
+vim.cmd [[map <F8> :w <CR> :!gcc -g ./% -o %< && %< <CR>]]
 

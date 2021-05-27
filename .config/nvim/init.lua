@@ -14,3 +14,4 @@ require('settings')
 require('keymapping')
 --load lsp config
 require('lang')
+require('c-per')
