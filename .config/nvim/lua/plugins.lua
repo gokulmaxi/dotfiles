@@ -50,11 +50,10 @@ return require('packer').startup(function()
         run = ':TSUpdate'
     }
     use {'norcalli/nvim-colorizer.lua'}
-
+    use {"kyazdani42/nvim-tree.lua"}
     -- Autocomplete
     use {
         "hrsh7th/nvim-compe",
-        opt = false
     }
 
     use {
@@ -92,4 +91,8 @@ return require('packer').startup(function()
     use {"kevinhwang91/nvim-bqf"}
     --rainbow coloriser
     use {"p00f/nvim-ts-rainbow"} 
+    --ctags
+    use('preservim/tagbar')
+    --codi
+    use('metakirby5/codi.vim')
 end)

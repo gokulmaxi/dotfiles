@@ -75,5 +75,7 @@ vim.api.nvim_exec([[
 --set colour scheme and use transparent background
 cmd 'colorscheme nord-custom'
 vim.cmd [[ silent! hi Normal guibg=none ctermbg=none ]]
-
+--easy esc 
+vim.cmd [[imap <C-space> <Esc>]]
+vim.cmd [[map <F8> :w <CR> :!gcc % -o %< && ./%< <CR>]]
 
