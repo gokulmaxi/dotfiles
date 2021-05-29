@@ -135,6 +135,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
@@ -163,6 +167,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular"
   },
+  tagbar = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tagbar"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim"
@@ -182,6 +190,10 @@ _G.packer_plugins = {
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vimspector"
   },
   ["which-key.nvim"] = {
     loaded = true,

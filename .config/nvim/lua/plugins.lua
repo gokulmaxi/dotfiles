@@ -37,6 +37,7 @@ return require('packer').startup(function()
     -- LSP config
     use {'neovim/nvim-lspconfig'}
     use {"glepnir/lspsaga.nvim"}
+    use{"kabouzeid/nvim-lspinstall"}
     use {'sbdchd/neoformat'}
     -- Snippets
     use {'hrsh7th/vim-vsnip'}
