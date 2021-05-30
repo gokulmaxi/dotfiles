@@ -172,7 +172,21 @@ local mappings = {
     c={
         name="+c per",
         r={"<cmd>:lua cPer.runCode()<cr>","run c code"}
-    }
+    },
+    t = {
+       name = '+terminal' ,
+       o={'<cmd>FloatermNew --wintype=popup --height=6<cr>', 'terminal'},
+       f ={'<cmd>FloatermNew fzf<cr>','fzf'},
+       g={'<cmd>FloatermNew lazygit<cr>', 'git'},
+      -- 'd' : [':FloatermNew lazydo<cr>cker'                        , 'docker'],
+       n = {'<cmd>FloatermNew node<cr>', 'node'},
+    --   N= { '<cmd>FloatermNew nnn' , 'nnn'},
+       p={ '<cmd>FloatermNew python<cr>', 'python'},
+       --r={ '<cmd>FloatermNew ranger', 'ranger'},
+       t= {'<cmd>FloatermToggle<cr>','toggle'},
+       y = {'<cmd>FloatermNew ytop<cr>','ytop'},
+       --s= {'<cmd>FloatermNew ncdu','ncdu'},
+       }
 }
 
 local wk = require("which-key")

@@ -96,4 +96,5 @@ return require('packer').startup(function()
     use('preservim/tagbar')
     --debugging
     use('puremourning/vimspector')
+    use('voldikss/vim-floaterm')
 end)
