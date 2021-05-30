@@ -92,7 +92,7 @@ vim.api.nvim_set_keymap("v", "<leader>/", ":CommentToggle<CR>", {
 })
 
 -- close buffer
-vim.api.nvim_set_keymap("n", "<leader>c", ":BufferClose<CR>", {
+vim.api.nvim_set_keymap("n", "<leader>x", ":BufferClose<CR>", {
     noremap = true,
     silent = true
 })
@@ -101,7 +101,7 @@ vim.api.nvim_set_keymap("n", "<leader>c", ":BufferClose<CR>", {
 
 local mappings = {
     ["/"] = "Comment",
-    ["c"] = "Close Buffer",
+    ["x"] = "Close Buffer",
     ["e"] = "Explorer",
     ["f"] = "Find File",
     ["h"] = "No Highlight",
@@ -168,6 +168,10 @@ local mappings = {
         name = "+Session",
         s = {"<cmd>SessionSave<cr>", "Save Session"},
         l = {"<cmd>SessionLoad<cr>", "Load Session"}
+    },
+    c={
+        name="+c per",
+        r={"<cmd>:lua cPer.runCode()<cr>","run c code"}
     }
 }
 

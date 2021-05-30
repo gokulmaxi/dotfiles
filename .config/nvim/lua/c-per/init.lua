@@ -8,6 +8,7 @@ function cPer.startDebuging()
     vim.cmd [[:call vimspector#Launch()]]
 end
 function cPer.runCode()
-        vim.cmd [[]]
+        vim.cmd [[:w]]
+        vim.cmd [[:!gcc %  -o %< && %< ]]
 end
         return cPer
