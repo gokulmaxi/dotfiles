@@ -97,4 +97,5 @@ return require('packer').startup(function()
     --debugging
     use('puremourning/vimspector')
     use('voldikss/vim-floaterm')
+    use('907th/vim-auto-save')
 end)

@@ -183,6 +183,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+  },
   ["vim-markdown"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown"

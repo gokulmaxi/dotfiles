@@ -7,7 +7,6 @@ O = {
             },
             signs = true,
             underline = true,
-            
         }
     }
 }

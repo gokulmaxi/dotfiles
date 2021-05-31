@@ -62,7 +62,11 @@ vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', {
     noremap = true,
     silent = true
 })
-
+-- window
+vim.api.nvim_set_keymap('n','<leader>w','<C-w>',{
+        noremap=true,
+        silent=true
+})
 -- explorer
 vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', {
     noremap = true,
@@ -186,7 +190,27 @@ local mappings = {
        t= {'<cmd>FloatermToggle<cr>','toggle'},
        y = {'<cmd>FloatermNew ytop<cr>','ytop'},
        --s= {'<cmd>FloatermNew ncdu','ncdu'},
-       }
+       },
+       w={
+               name= "+window",
+               s = "Split window",
+               v = "Split window vertically",
+               w = "Switch windows",
+               q = "Quit a window",
+               T = "Break out into a new tab",
+               x = "Swap current with next",
+               ["-"] = "Decrease height",
+               ["+"] = "Increase height",
+               ["<lt>"] = "Decrease width",
+               [">"] = "Increase width",
+               ["|"] = "Max out the width",
+               ["="] = "Equally high and wide",
+               h = "Go to the left window",
+               l = "Go to the right window",
+               k = "Go to the up window",
+               j = "Go to the down window",
+       },
+       
 }
 
 local wk = require("which-key")
