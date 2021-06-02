@@ -71,6 +71,10 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
+  ["DoxygenToolkit.vim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DoxygenToolkit.vim"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/barbar.nvim"
@@ -182,6 +186,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-auto-save"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-auto-save"
   },
   ["vim-floaterm"] = {
     loaded = true,

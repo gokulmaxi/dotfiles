@@ -175,7 +175,11 @@ local mappings = {
     },
     c={
         name="+c per",
-        r={"<cmd>:lua cPer.runCode()<cr>","run c code"}
+        r={"<cmd>:lua cPer.runCode()<cr>","run c code"},
+        d={"<cmd>Dox<cr>","insert doc block"},
+        u={"<cmd>DoxUndoc<cr>","insert doc block"},
+
+
     },
     t = {
        name = '+terminal' ,
