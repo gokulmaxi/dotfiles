@@ -101,4 +101,5 @@ return require('packer').startup(function()
     use('vim-scripts/DoxygenToolkit.vim')
     use ("ray-x/lsp_signature.nvim")
     use('bfrg/vim-cpp-modern')
+  use { 'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end }
 end)
