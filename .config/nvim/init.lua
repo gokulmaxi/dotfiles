@@ -6,7 +6,7 @@ require('globals')
 -- Install plugins
 require('plugins')
 -- load config
---require('config')
+require('config')
 
 -- Sensible defaults
 require('settings')
