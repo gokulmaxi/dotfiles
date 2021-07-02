@@ -68,9 +68,6 @@ return require('packer').startup(function()
     -- Status Line and Bufferline
     use {"glepnir/galaxyline.nvim"}
     use {"romgrk/barbar.nvim"}
-    -- themes
-    use {'arcticicestudio/nord-vim'}
-    use {'sainnhe/gruvbox-material'}
     --     -- Markdown
     use {
         'npxbr/glow.nvim',
@@ -95,7 +92,7 @@ return require('packer').startup(function()
     --ctags
     use('preservim/tagbar')
     --debugging
-    use('puremourning/vimspector')
+    -- use('puremourning/vimspector')
     use('voldikss/vim-floaterm')
     use('907th/vim-auto-save')
     use('vim-scripts/DoxygenToolkit.vim')
