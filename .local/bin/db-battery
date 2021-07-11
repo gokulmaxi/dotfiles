@@ -16,7 +16,7 @@
 # 	5) xbacklight -dec 10 ;;
 # 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 # esac
-
+RED='\033[0;31m'
 # Loop through all attached batteries and format the info
 for battery in /sys/class/power_supply/BAT?*; do
 	# If non-first battery, print a space separator.
