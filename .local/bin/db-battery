@@ -16,7 +16,7 @@
 # 	5) xbacklight -dec 10 ;;
 # 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 # esac
-
+RED='\033[0;31m'
 # Loop through all attached batteries and format the info
 for battery in /sys/class/power_supply/BAT?*; do
 	# If non-first battery, print a space separator.
@@ -24,9 +24,9 @@ for battery in /sys/class/power_supply/BAT?*; do
 	# Sets up the status and capacity
 	case "$(cat "$battery/status")" in
 		"Full") status="" ;;
-		"Discharging") status="" ;;
+		"Discharging") status="\x03 " ;;
 		"Charging") status="ﮣ" ;;
-		"Not charging") status="" ;;
+		"Not charging") status="\x03" ;;
 		"Unknown") status="" ;;
 	esac
 	capacity=$(cat "$battery/capacity")
