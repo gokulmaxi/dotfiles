@@ -44,31 +44,35 @@ return require('packer').startup(function()
     use {'rafamadriz/friendly-snippets'}
     -- Lua development
     use {'tjdevries/nlua.nvim'}
-
-    --     -- Better syntax
+    -- Better syntax
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
+    --colorise the colors in buf 
+    --TODO Not working err: set termgui true
     use {'norcalli/nvim-colorizer.lua'}
+    -- file tree
     use {"kyazdani42/nvim-tree.lua"}
-    -- Autocomplete
+    -- Autocomplete with native lsp
     use {
         "hrsh7th/nvim-compe",
     }
-
+    -- nvim telescope 
     use {
         'nvim-telescope/telescope.nvim',
         requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
     }
+    --telescope fuzzy finder
     use {
         'nvim-telescope/telescope-fzf-native.nvim',
         run = 'make'
     }
     -- Status Line and Bufferline
     use {"glepnir/galaxyline.nvim"}
+    -- easy tab management
     use {"romgrk/barbar.nvim"}
-    --     -- Markdown
+    -- Markdown preview inside nvim
     use {
         'npxbr/glow.nvim',
         run = ':GlowInstall'
@@ -78,25 +82,30 @@ return require('packer').startup(function()
         'iamcco/markdown-preview.nvim',
         run = 'cd app && yarn install'
     }
+    -- align text and symbols in a line
     use {'godlygeek/tabular'}
+
     use {'plasticboy/vim-markdown'}
     -- which key to pop up keybindings
     use {"folke/which-key.nvim"}
     -- dev icons
     use {"kyazdani42/nvim-web-devicons"}
+    -- auto pair braces with seperate colors
     use {"windwp/nvim-autopairs"}
+    -- comment using simple shortcuts
     use {"terrortylor/nvim-comment"}
-    use {"kevinhwang91/nvim-bqf"}
     --rainbow coloriser
     use {"p00f/nvim-ts-rainbow"} 
     --ctags
     use('preservim/tagbar')
-    --debugging
-    -- use('puremourning/vimspector')
+    -- floatterm inside nvim
     use('voldikss/vim-floaterm')
-    use('907th/vim-auto-save')
+    --docxygen toolkit for nvim 
     use('vim-scripts/DoxygenToolkit.vim')
+    -- signature for autocompletion 
     use ("ray-x/lsp_signature.nvim")
-    use('bfrg/vim-cpp-modern')
-  use { 'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end }
+    -- gruvbox theme
+    use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+    --autosave plugin
+    use "Pocco81/AutoSave.nvim"
 end)

@@ -74,7 +74,8 @@ vim.api.nvim_exec([[
     autocmd FileType go,rust,html,typescript,javascript,python autocmd BufWritePre <buffer> call TrimWhitespace()
 ]], false)
 --set colour scheme and use transparent background
-cmd 'colorscheme gruvbox'
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
 vim.cmd [[ silent! hi Normal guibg=none ctermbg=none ]]
 --easy esc 
 vim.cmd [[imap <C-space> <Esc>]]

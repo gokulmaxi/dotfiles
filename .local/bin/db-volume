@@ -2,6 +2,7 @@
 
 # Prints the current volume or 🔇 if muted.
 
+RED='\033[0;31m'
 case $BUTTON in
 	1) setsid -f "$TERMINAL" -e pulsemixer ;;
 	2) pamixer -t ;;
@@ -25,4 +26,4 @@ else
 	icon=""
 fi
 
-echo "\x01 $icon$vol%"
+echo "$icon$vol%\x03d"
