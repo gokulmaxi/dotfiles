@@ -26,4 +26,4 @@ else
 	icon=""
 fi
 
-echo "$icon$vol%\x03d"
+echo "$icon$vol%"
