@@ -83,3 +83,4 @@ vim.cmd [[map <F8> :w <CR> :!gcc -g ./% -o %< && %< <CR>]]
 CONFIG_PATH = vim.fn.stdpath('config')
 DATA_PATH = vim.fn.stdpath('data')
 CACHE_PATH = vim.fn.stdpath('cache')
+vim.cmd [[let g:mkdp_browser = 'firefox']]

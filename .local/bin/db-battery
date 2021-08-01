@@ -24,9 +24,9 @@ for battery in /sys/class/power_supply/BAT?*; do
 	# Sets up the status and capacity
 	case "$(cat "$battery/status")" in
 		"Full") status="" ;;
-		"Discharging") status="\x03 " ;;
+		"Discharging") status="" ;;
 		"Charging") status="ﮣ" ;;
-		"Not charging") status="\x03" ;;
+		"Not charging") status="" ;;
 		"Unknown") status="" ;;
 	esac
 	capacity=$(cat "$battery/capacity")
