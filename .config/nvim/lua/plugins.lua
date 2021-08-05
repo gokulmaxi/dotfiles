@@ -108,5 +108,6 @@ return require('packer').startup(function()
     use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
     --autosave plugin
     use "Pocco81/AutoSave.nvim"
-    -- unicode helper
+    -- xml helper
+    use "sukima/xmledit"
 end)

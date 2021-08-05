@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/gokul/Pictures/wall.png' 
+feh --no-fehbg --bg-fill '/media/storage/Pictures/wall.png' 

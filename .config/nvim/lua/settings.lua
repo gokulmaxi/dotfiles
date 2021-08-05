@@ -53,6 +53,10 @@ augroup auto_spellcheck
     autocmd BufNewFile,BufRead *.html setlocal ts=2 sw=2 expandtab
     autocmd BufNewFile,BufRead *.js setlocal ts=2 sw=2 expandtab
     autocmd BufNewFile,BufRead *.json setlocal syntax=off expandtab
+    autocmd BufNewFile,BufRead *.launch setfiletype xml
+    autocmd BufNewFile,BufRead *.world setfiletype xml
+    autocmd BufNewFile,BufRead *.urdf setfiletype xml
+    autocmd BufNewFile,BufRead *.sdf setfiletype xml
 augroup END
 ]], false)
 
