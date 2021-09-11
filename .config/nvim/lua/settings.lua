@@ -25,6 +25,7 @@ wo.number = true
 wo.relativenumber = false
 wo.scrolloff = 8
 wo.cursorline = true
+o.relativenumber=true
 
 --auto complete
 vim.o.completeopt = "menuone,noselect"
