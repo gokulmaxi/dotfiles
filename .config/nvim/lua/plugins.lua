@@ -44,6 +44,10 @@ return require('packer').startup(function()
     use {'rafamadriz/friendly-snippets'}
     -- Lua development
     use {'tjdevries/nlua.nvim'}
+    -- debug adapter
+    use 'mfussenegger/nvim-dap'
+    -- DAP UI
+    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
     -- Better syntax
     use {
         'nvim-treesitter/nvim-treesitter',
