@@ -177,11 +177,11 @@ format = <label-tags> <label-layout> <label-floating> <label-title>
 ; socket-path = /tmp/dwm.sock
 
 ; Left-click to view tag, right-click to toggle tag view
-enable-tags-click = false
+enable-tags-click = true 
 ; Scroll to cycle between available tags
-enable-tags-scroll = false
+enable-tags-scroll = true 
 ; If true and enable-tags-scroll = true, scrolling will view all tags regardless if occupied
-tags-scroll-empty = false
+tags-scroll-empty = false 
 ; If true and enable-tags-scroll = true, scrolling will cycle through tags backwards
 tags-scroll-reverse = false
 ; If true and enable-tags-scroll = true, wrap active tag when scrolling
