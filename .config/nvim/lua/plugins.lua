@@ -42,6 +42,7 @@ return require('packer').startup(function()
     -- Snippets
     use {'hrsh7th/vim-vsnip'}
     use {'rafamadriz/friendly-snippets'}
+    use { 'SirVer/ultisnips'}
     -- Lua development
     use {'tjdevries/nlua.nvim'}
     -- debug adapter
@@ -77,10 +78,6 @@ return require('packer').startup(function()
     -- easy tab management
     use {"romgrk/barbar.nvim"}
     -- Markdown preview inside nvim
-    use {
-        'npxbr/glow.nvim',
-        run = ':GlowInstall'
-    }
     use {'mzlogin/vim-markdown-toc'}
     use {
         'iamcco/markdown-preview.nvim',
@@ -96,7 +93,6 @@ return require('packer').startup(function()
     use {"kyazdani42/nvim-web-devicons"}
     -- auto pair braces with seperate colors
     use {"windwp/nvim-autopairs"}
-    -- comment using simple shortcuts
     use {"terrortylor/nvim-comment"}
     --rainbow coloriser
     use {"p00f/nvim-ts-rainbow"} 

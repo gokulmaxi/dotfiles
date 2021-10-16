@@ -209,6 +209,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-floaterm"
   },
+  ["vim-latex-live-preview"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-latex-live-preview"
+  },
   ["vim-markdown"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown"
