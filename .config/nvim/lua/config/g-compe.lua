@@ -42,7 +42,10 @@ require'compe'.setup {
         emoji = {
             kind = " ﲃ  (Emoji)",
             filetypes = {"markdown", "text"}
-        }
+        },
+        omni={
+            filetypes = {'tex'},
+        },
         -- for emoji press : (idk if that in compe tho)
     }
 }

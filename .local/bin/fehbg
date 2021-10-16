@@ -2,3 +2,5 @@
 feh --no-fehbg --bg-fill '/home/gokul/.config/Wallpapers/wall-gruv.png' 
 xrandr --dpi 96
 mpd &
+killall notify-osd
+dunst &

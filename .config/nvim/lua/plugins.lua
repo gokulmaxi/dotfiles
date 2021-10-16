@@ -114,4 +114,8 @@ return require('packer').startup(function()
     use "Pocco81/AutoSave.nvim"
     -- xml helper
     use "sukima/xmledit"
+    use "lervag/vimtex"
+    use 'GoldsteinE/compe-latex-symbols'
+    use 'brennier/quicktex'
+    use 'xuhdev/vim-latex-live-preview'
 end)

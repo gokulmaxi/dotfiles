@@ -81,6 +81,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/barbar.nvim"
   },
+  ["compe-latex-symbols"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/compe-latex-symbols"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/friendly-snippets"
@@ -137,6 +141,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-dap-ui"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
@@ -173,6 +185,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
+  quicktex = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/quicktex"
+  },
   tabular = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular"
@@ -205,9 +221,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   },
+  vimtex = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vimtex"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/which-key.nvim"
+  },
+  xmledit = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/xmledit"
   }
 }
 

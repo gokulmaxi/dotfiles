@@ -89,3 +89,4 @@ CONFIG_PATH = vim.fn.stdpath('config')
 DATA_PATH = vim.fn.stdpath('data')
 CACHE_PATH = vim.fn.stdpath('cache')
 vim.cmd [[let g:mkdp_browser = 'firefox']]
+vim.cmd [[let g:livepreview_previewer = 'kitty zathura']]

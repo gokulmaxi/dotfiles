@@ -1,2 +1,2 @@
--- require('lsp.clangd')
+-- require('lsp.vimtex')
 -- require('lsp.lua')
