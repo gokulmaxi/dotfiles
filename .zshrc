@@ -72,7 +72,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git docker docker-compose ubuntu )
 
 source $ZSH/oh-my-zsh.sh
-
+source /home/gokul/.local/bin/ros-fun
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

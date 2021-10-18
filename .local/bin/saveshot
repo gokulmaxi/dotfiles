@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+mkdir -p img
+xclip -selection clipboard -t image/png -o > ./img/$1.png

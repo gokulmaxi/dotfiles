@@ -1,0 +1,8 @@
+#!/bin/zsh
+package=$(rospack list | awk '{print $1}' | fzf )
+package_path=$(rospack find $package)
+pynode=$(find $package_path -name \*.py | awk -F "/" '{print $NF}' | fzf)
+rosrun $package $pynode
+
+
+

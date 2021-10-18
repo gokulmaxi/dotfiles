@@ -12,7 +12,8 @@ endfunction
 ]]
 
 vim.cmd[[
-inoremap <expr><buffer> <CR> getline('.') =~ '\item $' ? '<c-w><c-w>'  : (col(".") < col("$") ? '<CR>' : '<CR>'.AddItem() )
 noremap <expr><buffer> o "o".AddItem()
 nnoremap <expr><buffer> O "O".AddItem()
 ]]
+
+
