@@ -47,6 +47,9 @@ return require('packer').startup(function()
     use {'tjdevries/nlua.nvim'}
     -- debug adapter
     use 'mfussenegger/nvim-dap'
+
+    use 'Pocco81/DAPInstall.nvim'
+
     -- DAP UI
     use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
     -- Better syntax
@@ -59,10 +62,15 @@ return require('packer').startup(function()
     use {'norcalli/nvim-colorizer.lua'}
     -- file tree
     use {"kyazdani42/nvim-tree.lua"}
-    -- Autocomplete with native lsp
-    use {
-        "hrsh7th/nvim-compe",
-    }
+    -- Autocomplete with native lspPlug 'hrsh7th/cmp-nvim-lsp'
+    use {"hrsh7th/nvim-cmp"}
+    use{'hrsh7th/cmp-vsnip'}
+    use{'hrsh7th/cmp-omni'}
+    use{'quangnguyen30192/cmp-nvim-ultisnips'}
+    use{'hrsh7th/cmp-buffer'}
+    use{'hrsh7th/cmp-path'}
+    use{'kdheepak/cmp-latex-symbols'}
+    use{'hrsh7th/cmp-nvim-lsp'}
     -- nvim telescope 
     use {
         'nvim-telescope/telescope.nvim',
@@ -112,6 +120,9 @@ return require('packer').startup(function()
     use "sukima/xmledit"
     use "lervag/vimtex"
     use 'GoldsteinE/compe-latex-symbols'
-    use 'brennier/quicktex'
+    -- use 'brennier/quicktex'
     use 'xuhdev/vim-latex-live-preview'
+    -- conceals latex texts
+    use 'KeitaNakamura/tex-conceal.vim'
+    use 'matze/vim-tex-fold'
 end)

@@ -81,6 +81,34 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/barbar.nvim"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+  },
+  ["cmp-latex-symbols"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-latex-symbols"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-ultisnips"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-ultisnips"
+  },
+  ["cmp-omni"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-omni"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-path"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+  },
   ["compe-latex-symbols"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/compe-latex-symbols"
@@ -92,10 +120,6 @@ _G.packer_plugins = {
   ["galaxyline.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
-  },
-  ["glow.nvim"] = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/glow.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -129,6 +153,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+  },
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
@@ -136,10 +164,6 @@ _G.packer_plugins = {
   ["nvim-comment"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-comment"
-  },
-  ["nvim-compe"] = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-dap"] = {
     loaded = true,
@@ -185,10 +209,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
-  quicktex = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/quicktex"
-  },
   tabular = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular"
@@ -204,6 +224,14 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["tex-conceal.vim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tex-conceal.vim"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/ultisnips"
   },
   ["vim-floaterm"] = {
     loaded = true,

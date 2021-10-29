@@ -83,7 +83,8 @@ vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
 vim.cmd [[ silent! hi Normal guibg=none ctermbg=none ]]
 --easy esc 
-vim.cmd [[imap <C-space> <Esc>]]
+--`inoremap <S-CR> <Esc>`
+vim.cmd [[inoremap jj <ESC>]]
 vim.cmd [[map <F8> :w <CR> :!gcc -g ./% -o %< && %< <CR>]]
 CONFIG_PATH = vim.fn.stdpath('config')
 DATA_PATH = vim.fn.stdpath('data')

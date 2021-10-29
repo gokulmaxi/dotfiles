@@ -109,19 +109,23 @@ local mappings = {
     ["e"] = "Explorer",
     ["f"] = "Find File",
     ["h"] = "No Highlight",
-    -- TODO enable debuging for c and cpp programs
-    -- utils.map('n', '<Leader>d', '<Cmd>call vimspector#Launch()<CR>')
     d = {
         name = "+Debug",
-        b = {"<cmd>call vimspector#ToggleBreakpoint()<cr>", "Toggle Breakpoint"},
-        c = {"<cmd>call vimspector#Continue()<cr>", "Continue"},
-        i = {"<cmd>call vimspector#StepInto()", "Step Into"},
-        o = {"<cmd>call vimspector#StepOver()<cr>", "Step Over"},
-        p = {"<cmd>call vimspector#Pause()<cr>", "Pause"},
-        r = {"<cmd>call vimspector#Restart()<cr>", "Restart"},
-        s = {"<cmd>:lua cPer.startDebuging()<cr>", "Start"},
-        x = {"<cmd>call vimspector#Reset()<cr>", "close"}
-    },
+        t = { "<cmd>lua require'dap'.toggle_breakpoint()<cr>", "Toggle Breakpoint" },
+        b = { "<cmd>lua require'dap'.step_back()<cr>", "Step Back" },
+        c = { "<cmd>lua require'dap'.continue()<cr>", "Continue" },
+        C = { "<cmd>lua require'dap'.run_to_cursor()<cr>", "Run To Cursor" },
+        d = { "<cmd>lua require'dap'.disconnect()<cr>", "Disconnect" },
+        g = { "<cmd>lua require'dap'.session()<cr>", "Get Session" },
+        i = { "<cmd>lua require'dap'.step_into()<cr>", "Step Into" },
+        o = { "<cmd>lua require'dap'.step_over()<cr>", "Step Over" },
+        u = { "<cmd>lua require'dap'.step_out()<cr>", "Step Out" },
+        p = { "<cmd>lua require'dap'.pause.toggle()<cr>", "Pause" },
+        r = { "<cmd>lua require'dap'.repl.toggle()<cr>", "Toggle Repl" },
+        s = { "<cmd>lua require'dap'.continue()<cr>", "Start" },
+        q = { "<cmd>lua require'dap'.close()<cr>", "Quit" },
+      },
+    
     g = {
         name = "+Git",
         j = {"<cmd>NextHunk<cr>", "Next Hunk"},
@@ -138,21 +142,40 @@ local mappings = {
     },
     l = {
         name = "+LSP",
-        a = {"<cmd>Lspsaga code_action<cr>", "Code Action"},
-        A = {"<cmd>Lspsaga range_code_action<cr>", "Selected Action"},
-        d = {"<cmd>Telescope lsp_document_diagnostics<cr>", "Document Diagnostics"},
-        D = {"<cmd>Telescope lsp_workspace_diagnostics<cr>", "Workspace Diagnostics"},
-        f = {"<cmd>lua vim.lsp.buf.formatting()<cr>", "Format"},
-        i = {"<cmd>LspInfo<cr>", "Info"},
-        l = {"<cmd>Lspsaga lsp_finder<cr>", "LSP Finder"},
-        L = {"<cmd>Lspsaga show_line_diagnostics<cr>", "Line Diagnostics"},
-        p = {"<cmd>Lspsaga preview_definition<cr>", "Preview Definition"},
-        q = {"<cmd>Telescope quickfix<cr>", "Quickfix"},
-        r = {"<cmd>Lspsaga rename<cr>", "Rename"},
-        t = {"<cmd>LspTypeDefinition<cr>", "Type Definition"},
-        x = {"<cmd>cclose<cr>", "Close Quickfix"},
-        s = {"<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols"},
-        S = {"<cmd>Telescope lsp_workspace_symbols<cr>", "Workspace Symbols"}
+        a = { "<cmd>lua require('config.telescope').code_actions()<cr>", "Code Action" },
+        d = {
+          "<cmd>Telescope lsp_document_diagnostics<cr>",
+          "Document Diagnostics",
+        },
+        w = {
+          "<cmd>Telescope lsp_workspace_diagnostics<cr>",
+          "Workspace Diagnostics",
+        },
+        f = { "<cmd>lua vim.lsp.buf.formatting()<cr>", "Format" },
+        i = { "<cmd>LspInfo<cr>", "Info" },
+        I = { "<cmd>LspInstallInfo<cr>", "Installer Info" },
+        j = {
+          "<cmd>lua vim.lsp.diagnostic.goto_next()<cr>",
+          "Next Diagnostic",
+        },
+        k = {
+          "<cmd>lua vim.lsp.diagnostic.goto_prev()<cr>",
+          "Prev Diagnostic",
+        },
+        l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
+        p = {
+          name = "Peek",
+          d = { "<cmd>lua require('config.peek').Peek('definition')<cr>", "Definition" },
+          t = { "<cmd>lua require('config.peek').Peek('typeDefinition')<cr>", "Type Definition" },
+          i = { "<cmd>lua require('config.peek').Peek('implementation')<cr>", "Implementation" },
+        },
+        q = { "<cmd>lua vim.lsp.diagnostic.set_loclist()<cr>", "Quickfix" },
+        r = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
+        s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
+        S = {
+          "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
+          "Workspace Symbols",
+        },
     },
 
     s = {
