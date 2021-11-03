@@ -73,6 +73,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/AutoSave.nvim"
   },
+  ["DAPInstall.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim"
+  },
   ["DoxygenToolkit.vim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DoxygenToolkit.vim"
@@ -124,6 +128,10 @@ _G.packer_plugins = {
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/gruvbox.nvim"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
   },
   ["lsp_signature.nvim"] = {
     loaded = true,
@@ -248,6 +256,10 @@ _G.packer_plugins = {
   ["vim-markdown-toc"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown-toc"
+  },
+  ["vim-tex-fold"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-tex-fold"
   },
   ["vim-vsnip"] = {
     loaded = true,

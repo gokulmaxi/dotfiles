@@ -93,7 +93,7 @@ return require('packer').startup(function()
     }
     -- align text and symbols in a line
     use {'godlygeek/tabular'}
-
+    use {"lukas-reineke/indent-blankline.nvim"}
     use {'plasticboy/vim-markdown'}
     -- which key to pop up keybindings
     use {"folke/which-key.nvim"}
