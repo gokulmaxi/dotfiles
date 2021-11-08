@@ -18,4 +18,8 @@ function cPer.runCode()
         vim.cmd [[:!g++ %  -o %< && %< ]]
         end
 end
+function cPer.pasteImg()
+        vim.cmd[[:PasteImg]]
+        vim.fn.feedkeys("diw")
+end
         return cPer

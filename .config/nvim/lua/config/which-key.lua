@@ -125,7 +125,7 @@ local mappings = {
         s = { "<cmd>lua require'dap'.continue()<cr>", "Start" },
         q = { "<cmd>lua require'dap'.close()<cr>", "Quit" },
       },
-    
+
     g = {
         name = "+Git",
         j = {"<cmd>NextHunk<cr>", "Next Hunk"},
@@ -201,6 +201,7 @@ local mappings = {
         r={"<cmd>:lua cPer.runCode()<cr>","run c code"},
         d={"<cmd>Dox<cr>","insert doc block"},
         u={"<cmd>DoxUndoc<cr>","insert doc block"},
+        p={"<cmd>PasteImg<cr>","Paste image"}
 
 
     },
@@ -237,7 +238,7 @@ local mappings = {
                k = "Go to the up window",
                j = "Go to the down window",
        },
-       
+
 }
 
 local wk = require("which-key")

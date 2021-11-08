@@ -8,25 +8,6 @@ if fn.empty(fn.glob(install_path)) > 0 then
     execute "packadd packer.nvim"
 end
 
---- Check if a file or directory exists in this path
-local function require_plugin(plugin)
-    local plugin_prefix = fn.stdpath("data") .. "/site/pack/packer/opt/"
-
-    local plugin_path = plugin_prefix .. plugin .. "/"
-    --	print('test '..plugin_path)
-    local ok, err, code = os.rename(plugin_path, plugin_path)
-    if not ok then
-        if code == 13 then
-            -- Permission denied, but it exists
-            return true
-        end
-    end
-    --	print(ok, err, code)
-    if ok then
-        vim.cmd("packadd " .. plugin)
-    end
-    return ok, err, code
-end
 
 vim.cmd "autocmd BufWritePost plugins.lua PackerCompile" -- Auto compile when there are changes in plugins.lua
 
@@ -57,7 +38,7 @@ return require('packer').startup(function()
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
-    --colorise the colors in buf 
+    --colorise the colors in buf
     --TODO Not working err: set termgui true
     use {'norcalli/nvim-colorizer.lua'}
     -- file tree
@@ -71,7 +52,7 @@ return require('packer').startup(function()
     use{'hrsh7th/cmp-path'}
     use{'kdheepak/cmp-latex-symbols'}
     use{'hrsh7th/cmp-nvim-lsp'}
-    -- nvim telescope 
+    -- nvim telescope
     use {
         'nvim-telescope/telescope.nvim',
         requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
@@ -103,14 +84,14 @@ return require('packer').startup(function()
     use {"windwp/nvim-autopairs"}
     use {"terrortylor/nvim-comment"}
     --rainbow coloriser
-    use {"p00f/nvim-ts-rainbow"} 
+    use {"p00f/nvim-ts-rainbow"}
     --ctags
     use('preservim/tagbar')
     -- floatterm inside nvim
     use('voldikss/vim-floaterm')
-    --docxygen toolkit for nvim 
+    --docxygen toolkit for nvim
     use('vim-scripts/DoxygenToolkit.vim')
-    -- signature for autocompletion 
+    -- signature for autocompletion
     use ("ray-x/lsp_signature.nvim")
     -- gruvbox theme
     use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
@@ -118,6 +99,7 @@ return require('packer').startup(function()
     use "Pocco81/AutoSave.nvim"
     -- xml helper
     use "sukima/xmledit"
+    use 'andweeb/presence.nvim'
     use "lervag/vimtex"
     use 'GoldsteinE/compe-latex-symbols'
     -- use 'brennier/quicktex'
@@ -125,4 +107,6 @@ return require('packer').startup(function()
     -- conceals latex texts
     use 'KeitaNakamura/tex-conceal.vim'
     use 'matze/vim-tex-fold'
+    use 'ekickx/clipboard-image.nvim'
+
 end)

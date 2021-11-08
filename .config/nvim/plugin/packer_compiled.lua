@@ -71,211 +71,273 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["AutoSave.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/AutoSave.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/AutoSave.nvim",
+    url = "https://github.com/Pocco81/AutoSave.nvim"
   },
   ["DAPInstall.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim",
+    url = "https://github.com/Pocco81/DAPInstall.nvim"
   },
   ["DoxygenToolkit.vim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DoxygenToolkit.vim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/DoxygenToolkit.vim",
+    url = "https://github.com/vim-scripts/DoxygenToolkit.vim"
   },
   ["barbar.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/barbar.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
+  ["clipboard-image.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/clipboard-image.nvim",
+    url = "https://github.com/ekickx/clipboard-image.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-latex-symbols"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-latex-symbols"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-latex-symbols",
+    url = "https://github.com/kdheepak/cmp-latex-symbols"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-ultisnips"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-ultisnips"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-ultisnips",
+    url = "https://github.com/quangnguyen30192/cmp-nvim-ultisnips"
   },
   ["cmp-omni"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-omni"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-omni",
+    url = "https://github.com/hrsh7th/cmp-omni"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-path"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
   ["cmp-vsnip"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   ["compe-latex-symbols"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/compe-latex-symbols"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/compe-latex-symbols",
+    url = "https://github.com/GoldsteinE/compe-latex-symbols"
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["galaxyline.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/galaxyline.nvim",
+    url = "https://github.com/glepnir/galaxyline.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/gruvbox.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/npxbr/gruvbox.nvim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lsp_signature.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
   },
   ["lush.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lush.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["markdown-preview.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   neoformat = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/neoformat"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://github.com/sbdchd/neoformat"
   },
   ["nlua.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nlua.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nlua.nvim",
+    url = "https://github.com/tjdevries/nlua.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-comment"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-dap"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-dap"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-dap-ui"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-dap-ui"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-lspinstall"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-lspinstall",
+    url = "https://github.com/kabouzeid/nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    url = "https://github.com/p00f/nvim-ts-rainbow"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/popup.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
   },
   tabular = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular",
+    url = "https://github.com/godlygeek/tabular"
   },
   tagbar = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tagbar"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/preservim/tagbar"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["tex-conceal.vim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tex-conceal.vim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tex-conceal.vim",
+    url = "https://github.com/KeitaNakamura/tex-conceal.vim"
   },
   ultisnips = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/ultisnips"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/ultisnips",
+    url = "https://github.com/SirVer/ultisnips"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-latex-live-preview"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-latex-live-preview"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-latex-live-preview",
+    url = "https://github.com/xuhdev/vim-latex-live-preview"
   },
   ["vim-markdown"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown",
+    url = "https://github.com/plasticboy/vim-markdown"
   },
   ["vim-markdown-toc"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown-toc"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-markdown-toc",
+    url = "https://github.com/mzlogin/vim-markdown-toc"
   },
   ["vim-tex-fold"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-tex-fold"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-tex-fold",
+    url = "https://github.com/matze/vim-tex-fold"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   },
   vimtex = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vimtex"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   },
   ["which-key.nvim"] = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/which-key.nvim"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   },
   xmledit = {
     loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/xmledit"
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/xmledit",
+    url = "https://github.com/sukima/xmledit"
   }
 }
 
