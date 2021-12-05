@@ -1260,3 +1260,912 @@ Nov 09 05:29 : exception: OutputThread could not get realtime scheduling, contin
 Nov 09 05:29 : client: [0] opened from [::1]:50454
 Nov 09 05:29 : client: [1] opened from [::1]:50458
 Nov 09 05:29 : client: [2] opened from 127.0.0.1:43646
+Nov 09 07:06 : client: [2] closed
+Nov 09 07:07 : client: [1] closed
+Nov 09 07:07 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 09 09:59 : zeroconf: No global port, disabling zeroconf
+Nov 09 09:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 09:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 09:59 : client: [0] opened from [::1]:36504
+Nov 09 10:00 : client: [1] opened from 127.0.0.1:49398
+Nov 09 10:00 : client: [2] opened from [::1]:36506
+Nov 09 14:41 : client: [1] closed
+Nov 09 14:41 : client: [3] opened from 127.0.0.1:49422
+Nov 09 15:26 : client: [3] closed
+Nov 09 15:26 : client: [2] closed
+Nov 09 15:26 : client: [0] closed
+Nov 09 15:26 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 09 21:58 : zeroconf: No global port, disabling zeroconf
+Nov 09 21:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 21:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 21:58 : client: [0] opened from [::1]:42918
+Nov 09 21:58 : client: [1] opened from 127.0.0.1:42032
+Nov 09 21:58 : client: [2] opened from [::1]:42920
+Nov 09 18:39 : client: [1] closed
+Nov 09 18:39 : client: [2] closed
+Nov 09 18:39 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 09 21:09 : zeroconf: No global port, disabling zeroconf
+Nov 09 21:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 21:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 21:09 : client: [0] opened from [::1]:60414
+Nov 09 21:09 : client: [1] opened from [::1]:60416
+Nov 09 21:09 : client: [2] opened from 127.0.0.1:51158
+Nov 09 21:13 : client: [2] closed
+Nov 09 21:13 : client: [1] closed
+Nov 09 21:13 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 10 05:48 : zeroconf: No global port, disabling zeroconf
+Nov 10 05:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 05:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 05:48 : client: [0] opened from [::1]:34144
+Nov 10 05:48 : client: [1] opened from 127.0.0.1:43996
+Nov 10 05:48 : client: [2] opened from [::1]:34146
+Nov 10 07:39 : client: [1] closed
+Nov 10 07:39 : client: [2] closed
+Nov 10 07:39 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 10 11:43 : zeroconf: No global port, disabling zeroconf
+Nov 10 11:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 11:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 11:43 : client: [0] opened from [::1]:37600
+Nov 10 11:43 : client: [1] opened from [::1]:37602
+Nov 10 11:43 : client: [2] opened from [::1]:37604
+Nov 10 11:43 : client: [0] command "close" during idle
+Nov 10 11:43 : client: [0] closed
+Nov 10 12:27 : client: [2] closed
+Nov 10 12:27 : client: [3] opened from 127.0.0.1:49840
+Nov 10 14:23 : client: [3] closed
+Nov 10 14:23 : client: [4] opened from 127.0.0.1:49850
+Nov 10 18:19 : client: [4] closed
+Nov 10 18:19 : client: [1] closed
+Nov 10 18:19 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 11 08:57 : zeroconf: No global port, disabling zeroconf
+Nov 11 08:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 08:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 08:57 : client: [0] opened from [::1]:56516
+Nov 11 08:57 : client: [1] opened from [::1]:56518
+Nov 11 08:57 : client: [2] opened from 127.0.0.1:59292
+Nov 11 09:22 : client: [2] closed
+Nov 11 09:22 : client: [3] opened from 127.0.0.1:59294
+Nov 11 09:22 : client: [3] closed
+Nov 11 09:22 : client: [4] opened from 127.0.0.1:59296
+Nov 11 09:22 : client: [5] opened from 127.0.0.1:59298
+Nov 11 16:24 : client: [5] closed
+Nov 11 16:24 : client: [4] closed
+Nov 11 16:24 : client: [6] opened from 127.0.0.1:59318
+Nov 11 16:24 : client: [7] opened from 127.0.0.1:59316
+Nov 11 16:55 : client: [6] closed
+Nov 11 16:55 : client: [7] closed
+Nov 11 16:55 : client: [8] opened from 127.0.0.1:59322
+Nov 11 16:56 : client: [8] closed
+Nov 11 16:56 : client: [1] closed
+Nov 11 16:56 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 11 18:43 : zeroconf: No global port, disabling zeroconf
+Nov 11 18:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 18:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 18:43 : client: [0] opened from [::1]:48460
+Nov 11 18:43 : client: [1] opened from [::1]:48462
+Nov 11 18:43 : client: [2] opened from 127.0.0.1:48308
+Nov 11 22:20 : client: [2] closed
+Nov 11 22:20 : client: [3] opened from 127.0.0.1:48310
+Nov 12 05:54 : zeroconf: No global port, disabling zeroconf
+Nov 12 05:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 05:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 05:54 : client: [0] opened from [::1]:45868
+Nov 12 05:54 : client: [1] opened from [::1]:45870
+Nov 12 05:54 : client: [2] opened from 127.0.0.1:34634
+Nov 12 09:57 : client: [2] closed
+Nov 12 09:57 : client: [1] closed
+Nov 12 09:57 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 12 09:58 : zeroconf: No global port, disabling zeroconf
+Nov 12 09:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 09:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 09:58 : client: [0] opened from [::1]:47962
+Nov 12 09:58 : client: [1] opened from 127.0.0.1:56120
+Nov 12 09:58 : client: [2] opened from [::1]:47964
+Nov 12 12:19 : client: [3] opened from [::1]:47996
+Nov 12 12:19 : client: [3] closed
+Nov 12 12:20 : client: [1] closed
+Nov 12 12:20 : client: [4] opened from 127.0.0.1:56128
+Nov 12 12:55 : client: [4] closed
+Nov 12 12:55 : client: [2] closed
+Nov 12 12:55 : client: [0] closed
+Nov 12 12:55 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 12 14:42 : zeroconf: No global port, disabling zeroconf
+Nov 12 14:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 14:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 14:42 : client: [0] opened from [::1]:51800
+Nov 12 14:42 : client: [1] opened from [::1]:51802
+Nov 12 14:42 : client: [2] opened from 127.0.0.1:50078
+Nov 12 16:00 : client: [2] closed
+Nov 12 16:00 : client: [1] closed
+Nov 12 16:00 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 12 16:22 : zeroconf: No global port, disabling zeroconf
+Nov 12 16:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 16:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 16:22 : client: [0] opened from [::1]:58750
+Nov 12 16:22 : client: [1] opened from 127.0.0.1:35720
+Nov 12 16:22 : client: [2] opened from [::1]:58752
+Nov 12 21:07 : client: [1] closed
+Nov 12 21:07 : client: [2] closed
+Nov 12 21:07 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 12 21:09 : zeroconf: No global port, disabling zeroconf
+Nov 12 21:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 21:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 21:09 : client: [0] opened from [::1]:48924
+Nov 12 21:09 : client: [1] opened from [::1]:48926
+Nov 12 21:09 : client: [2] opened from 127.0.0.1:59492
+Nov 12 21:40 : client: [2] closed
+Nov 12 21:41 : client: [1] closed
+Nov 12 21:41 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 13 10:45 : zeroconf: No global port, disabling zeroconf
+Nov 13 10:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 10:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 10:45 : client: [0] opened from [::1]:37008
+Nov 13 10:45 : client: [1] opened from [::1]:37010
+Nov 13 10:45 : client: [2] opened from 127.0.0.1:57956
+Nov 13 10:45 : client: [3] opened from 127.0.0.1:57958
+Nov 13 13:44 : client: [3] closed
+Nov 13 13:44 : client: [2] closed
+Nov 13 13:44 : client: [4] opened from 127.0.0.1:57976
+Nov 13 13:44 : client: [5] opened from 127.0.0.1:57978
+Nov 13 13:45 : client: [4] closed
+Nov 13 13:45 : client: [5] closed
+Nov 13 13:45 : client: [6] opened from 127.0.0.1:57980
+Nov 13 13:45 : client: [7] opened from 127.0.0.1:57982
+Nov 13 15:17 : client: [7] closed
+Nov 13 15:17 : client: [6] closed
+Nov 13 15:17 : client: [8] opened from 127.0.0.1:57984
+Nov 13 15:17 : client: [9] opened from 127.0.0.1:57986
+Nov 13 16:03 : client: [8] closed
+Nov 13 16:03 : client: [9] closed
+Nov 13 16:03 : client: [10] opened from 127.0.0.1:57988
+Nov 13 16:03 : client: [11] opened from 127.0.0.1:57992
+Nov 13 17:20 : client: [10] closed
+Nov 13 17:20 : client: [11] closed
+Nov 13 17:20 : client: [12] opened from 127.0.0.1:58012
+Nov 13 17:20 : client: [13] opened from 127.0.0.1:58014
+Nov 13 17:39 : client: [12] closed
+Nov 13 17:39 : client: [13] closed
+Nov 13 17:39 : client: [0] closed
+Nov 13 17:39 : client: [1] closed
+Nov 13 17:39 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 13 21:28 : zeroconf: No global port, disabling zeroconf
+Nov 13 21:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 21:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 21:28 : client: [0] opened from [::1]:59030
+Nov 13 21:28 : client: [1] opened from 127.0.0.1:59744
+Nov 13 21:28 : client: [2] opened from 127.0.0.1:59746
+Nov 13 21:28 : client: [3] opened from [::1]:59032
+Nov 14 00:42 : client: [1] closed
+Nov 14 00:42 : client: [2] closed
+Nov 14 00:42 : client: [3] closed
+Nov 14 00:42 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 14 11:16 : zeroconf: No global port, disabling zeroconf
+Nov 14 11:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 14 11:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 14 11:16 : client: [0] opened from [::1]:47172
+Nov 14 11:16 : client: [1] opened from 127.0.0.1:41736
+Nov 14 11:16 : client: [2] opened from [::1]:47174
+Nov 15 11:07 : zeroconf: No global port, disabling zeroconf
+Nov 15 11:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 11:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 11:07 : client: [0] opened from [::1]:40388
+Nov 15 11:07 : client: [1] opened from 127.0.0.1:42372
+Nov 15 11:07 : client: [2] opened from 127.0.0.1:42374
+Nov 15 11:07 : client: [3] opened from [::1]:40390
+Nov 15 14:16 : client: [1] closed
+Nov 15 14:16 : client: [2] closed
+Nov 15 14:16 : client: [3] closed
+Nov 15 14:16 : client: [0] closed
+Nov 15 14:16 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 14:44 : zeroconf: No global port, disabling zeroconf
+Nov 15 14:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 14:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 14:44 : client: [0] opened from [::1]:57180
+Nov 15 14:44 : client: [1] opened from [::1]:57182
+Nov 15 14:44 : client: [2] opened from 127.0.0.1:48616
+Nov 15 19:53 : client: [2] closed
+Nov 15 19:53 : client: [3] opened from 127.0.0.1:48640
+Nov 15 21:17 : client: [3] closed
+Nov 15 21:17 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 21:17 : zeroconf: No global port, disabling zeroconf
+Nov 15 21:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 21:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 21:17 : client: [0] opened from 127.0.0.1:48650
+Nov 15 21:17 : client: [1] opened from 127.0.0.1:48652
+Nov 15 21:18 : client: [1] closed
+Nov 15 21:18 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 22:13 : zeroconf: No global port, disabling zeroconf
+Nov 15 22:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 22:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 22:13 : client: [0] opened from [::1]:49494
+Nov 15 22:13 : client: [1] opened from [::1]:49496
+Nov 15 22:13 : client: [2] opened from 127.0.0.1:44914
+Nov 15 22:17 : client: [2] closed
+Nov 15 22:17 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 22:59 : zeroconf: No global port, disabling zeroconf
+Nov 15 22:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 22:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 22:59 : client: [0] opened from [::1]:51340
+Nov 15 22:59 : client: [1] opened from [::1]:51342
+Nov 15 22:59 : client: [2] opened from 127.0.0.1:46776
+Nov 15 22:59 : client: [3] opened from [::1]:51344
+Nov 15 22:59 : client: [1] command "close" during idle
+Nov 15 22:59 : client: [1] closed
+Nov 15 23:00 : client: [2] closed
+Nov 15 23:00 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 23:00 : zeroconf: No global port, disabling zeroconf
+Nov 15 23:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 23:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 23:00 : client: [0] opened from [::1]:51346
+Nov 15 23:00 : client: [1] opened from 127.0.0.1:46778
+Nov 15 23:00 : client: [2] opened from [::1]:51348
+Nov 15 23:06 : client: [1] closed
+Nov 15 23:06 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 23:06 : zeroconf: No global port, disabling zeroconf
+Nov 15 23:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 23:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 23:06 : client: [0] opened from [::1]:51358
+Nov 15 23:06 : client: [1] opened from [::1]:51360
+Nov 15 23:06 : client: [2] opened from 127.0.0.1:46788
+Nov 15 23:06 : client: [2] closed
+Nov 15 23:06 : client: [1] command "currentsong" during idle
+Nov 15 23:06 : client: [1] closed
+Nov 15 23:06 : client: [3] opened from [::1]:51362
+Nov 15 23:07 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 15 23:09 : zeroconf: No global port, disabling zeroconf
+Nov 15 23:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 23:09 : client: [0] opened from [::1]:51486
+Nov 15 23:09 : client: [1] opened from 127.0.0.1:46906
+Nov 15 23:45 : client: [1] closed
+Nov 15 23:45 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 16 09:42 : zeroconf: No global port, disabling zeroconf
+Nov 16 09:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 09:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 09:42 : client: [0] opened from [::1]:39964
+Nov 16 09:42 : client: [1] opened from [::1]:39968
+Nov 16 09:42 : client: [2] opened from 127.0.0.1:33680
+Nov 16 09:42 : client: [3] opened from 127.0.0.1:33682
+Nov 16 12:14 : client: [3] closed
+Nov 16 12:14 : client: [2] closed
+Nov 16 12:14 : client: [4] opened from 127.0.0.1:33692
+Nov 16 12:14 : client: [5] opened from 127.0.0.1:33694
+Nov 16 14:20 : client: [4] closed
+Nov 16 14:20 : client: [5] closed
+Nov 16 14:20 : client: [6] opened from 127.0.0.1:33696
+Nov 16 14:20 : client: [7] opened from 127.0.0.1:33700
+Nov 16 14:20 : client: [6] closed
+Nov 16 14:20 : client: [7] closed
+Nov 16 14:20 : client: [8] opened from 127.0.0.1:33702
+Nov 16 14:20 : client: [9] opened from 127.0.0.1:33704
+Nov 16 14:26 : client: [8] closed
+Nov 16 14:26 : client: [9] closed
+Nov 16 14:26 : client: [10] opened from [::1]:39982
+Nov 16 14:26 : client: [0] command "close" during idle
+Nov 16 14:26 : client: [0] closed
+Nov 16 14:26 : client: [10] closed
+Nov 16 14:27 : client: [11] opened from 127.0.0.1:33706
+Nov 16 14:27 : client: [12] opened from 127.0.0.1:33708
+Nov 16 15:34 : client: [12] closed
+Nov 16 15:34 : client: [11] closed
+Nov 16 15:34 : client: [13] opened from 127.0.0.1:33712
+Nov 16 15:34 : client: [14] opened from 127.0.0.1:33714
+Nov 16 15:58 : client: [14] closed
+Nov 16 15:58 : client: [13] closed
+Nov 16 15:58 : client: [15] opened from 127.0.0.1:33716
+Nov 16 15:58 : client: [16] opened from 127.0.0.1:33718
+Nov 16 16:11 : client: [16] closed
+Nov 16 16:11 : client: [15] closed
+Nov 16 16:12 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 16 16:13 : zeroconf: No global port, disabling zeroconf
+Nov 16 16:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 16:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 16:13 : client: [0] opened from [::1]:41050
+Nov 16 16:13 : client: [1] opened from 127.0.0.1:50338
+Nov 16 16:13 : client: [2] opened from [::1]:41052
+Nov 16 17:42 : client: [1] closed
+Nov 16 17:42 : client: [3] opened from 127.0.0.1:50340
+Nov 16 17:42 : client: [4] opened from 127.0.0.1:50342
+Nov 16 18:21 : client: [3] closed
+Nov 16 18:21 : client: [4] closed
+Nov 16 18:21 : client: [5] opened from 127.0.0.1:50344
+Nov 16 18:21 : client: [5] closed
+Nov 16 18:22 : client: [6] opened from 127.0.0.1:50346
+Nov 16 18:22 : client: [7] opened from 127.0.0.1:50348
+Nov 16 18:42 : client: [6] closed
+Nov 16 18:42 : client: [7] closed
+Nov 16 18:42 : client: [2] closed
+Nov 16 18:42 : client: [0] closed
+Nov 16 18:42 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 16 20:15 : zeroconf: No global port, disabling zeroconf
+Nov 16 20:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 20:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 20:15 : client: [0] opened from [::1]:49190
+Nov 16 20:15 : client: [1] opened from [::1]:49192
+Nov 16 20:15 : client: [2] opened from 127.0.0.1:55998
+Nov 16 21:42 : client: [2] closed
+Nov 16 21:48 : client: [3] opened from 127.0.0.1:56002
+Nov 17 07:26 : client: [3] closed
+Nov 17 07:26 : client: [1] closed
+Nov 17 07:28 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 17 09:38 : zeroconf: No global port, disabling zeroconf
+Nov 17 09:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 17 09:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 17 09:38 : client: [0] opened from [::1]:60244
+Nov 17 09:38 : client: [1] opened from 127.0.0.1:43292
+Nov 17 09:38 : client: [2] opened from 127.0.0.1:43290
+Nov 17 09:38 : client: [3] opened from [::1]:60246
+Nov 17 09:39 : client: [1] closed
+Nov 17 09:39 : client: [2] closed
+Nov 17 09:39 : client: [4] opened from 127.0.0.1:43298
+Nov 17 09:39 : client: [5] opened from 127.0.0.1:43300
+Nov 17 09:39 : client: [5] closed
+Nov 17 09:39 : client: [4] closed
+Nov 17 09:39 : client: [6] opened from 127.0.0.1:43302
+Nov 17 17:19 : client: [6] closed
+Nov 17 17:19 : client: [3] closed
+Nov 17 17:19 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 17 22:53 : zeroconf: No global port, disabling zeroconf
+Nov 17 22:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 17 22:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 17 22:53 : client: [0] opened from 127.0.0.1:33616
+Nov 17 22:53 : client: [1] opened from 127.0.0.1:33618
+Nov 17 22:53 : client: [2] opened from 127.0.0.1:33620
+Nov 18 00:00 : client: [2] closed
+Nov 18 00:00 : client: [3] opened from 127.0.0.1:33622
+Nov 18 00:27 : client: [3] closed
+Nov 18 00:27 : client: [1] closed
+Nov 18 00:27 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 18 10:27 : zeroconf: No global port, disabling zeroconf
+Nov 18 10:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 18 10:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 18 10:27 : client: [0] opened from 127.0.0.1:60368
+Nov 18 10:27 : client: [1] opened from 127.0.0.1:60370
+Nov 18 10:27 : client: [2] opened from 127.0.0.1:60372
+Nov 18 11:29 : client: [2] closed
+Nov 18 11:29 : client: [3] opened from 127.0.0.1:60374
+Nov 18 11:36 : client: [3] closed
+Nov 18 11:37 : client: [4] opened from 127.0.0.1:60376
+Nov 18 14:12 : client: [4] closed
+Nov 18 14:12 : client: [5] opened from 127.0.0.1:60378
+Nov 19 03:21 : zeroconf: No global port, disabling zeroconf
+Nov 19 03:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 03:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 03:21 : client: [0] opened from [::1]:58748
+Nov 19 03:21 : client: [1] opened from [::1]:58752
+Nov 19 03:21 : client: [2] opened from 127.0.0.1:55268
+Nov 18 22:32 : client: [2] closed
+Nov 18 22:32 : client: [1] closed
+Nov 18 22:32 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 19 09:53 : zeroconf: No global port, disabling zeroconf
+Nov 19 09:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 09:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 09:53 : client: [0] opened from [::1]:50338
+Nov 19 09:53 : client: [1] opened from 127.0.0.1:45796
+Nov 19 09:53 : client: [2] opened from [::1]:50340
+Nov 19 11:24 : client: [1] closed
+Nov 19 11:24 : client: [3] opened from 127.0.0.1:45798
+Nov 19 11:24 : client: [3] closed
+Nov 19 11:24 : client: [4] opened from 127.0.0.1:45800
+Nov 19 11:24 : client: [5] opened from 127.0.0.1:45802
+Nov 19 22:58 : client: [5] closed
+Nov 19 22:58 : client: [4] closed
+Nov 19 22:58 : client: [2] closed
+Nov 19 22:58 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 20 09:20 : zeroconf: No global port, disabling zeroconf
+Nov 20 09:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 20 09:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 20 09:20 : client: [0] opened from [::1]:50544
+Nov 20 09:20 : client: [1] opened from [::1]:50546
+Nov 20 09:20 : client: [2] opened from 127.0.0.1:41446
+Nov 20 09:20 : client: [3] opened from 127.0.0.1:41448
+Nov 20 15:08 : client: [4] opened from 127.0.0.1:41454
+Nov 20 15:08 : client: [4] closed
+Nov 20 15:08 : client: [5] opened from 127.0.0.1:41456
+Nov 20 15:08 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Nov 20 15:08 : client: [5] closed
+Nov 20 16:09 : client: [3] closed
+Nov 20 16:09 : client: [2] closed
+Nov 20 16:09 : client: [6] opened from 127.0.0.1:41458
+Nov 20 16:09 : client: [7] opened from 127.0.0.1:41462
+Nov 20 16:46 : client: [7] closed
+Nov 20 16:46 : client: [6] closed
+Nov 20 16:47 : client: [8] opened from 127.0.0.1:41464
+Nov 20 16:47 : client: [9] opened from 127.0.0.1:41466
+Nov 20 17:03 : client: [8] closed
+Nov 20 17:03 : client: [9] closed
+Nov 20 17:03 : client: [10] opened from 127.0.0.1:41472
+Nov 20 17:03 : client: [11] opened from 127.0.0.1:41476
+Nov 20 17:08 : client: [10] closed
+Nov 20 17:08 : client: [11] closed
+Nov 20 17:08 : client: [1] closed
+Nov 20 17:08 : client: [0] closed
+Nov 21 01:16 : zeroconf: No global port, disabling zeroconf
+Nov 21 01:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 21 01:16 : client: [0] opened from [::1]:59936
+Nov 21 01:16 : client: [1] opened from [::1]:59938
+Nov 21 01:16 : client: [2] opened from 127.0.0.1:57592
+Nov 21 01:16 : client: [2] closed
+Nov 21 01:16 : client: [1] closed
+Nov 21 09:11 : zeroconf: No global port, disabling zeroconf
+Nov 21 09:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 21 09:11 : client: [0] opened from [::1]:60966
+Nov 21 09:11 : client: [1] opened from [::1]:60968
+Nov 21 09:11 : client: [2] opened from [::1]:60970
+Nov 21 09:11 : client: [0] command "close" during idle
+Nov 21 09:11 : client: [0] closed
+Nov 21 09:18 : client: [2] closed
+Nov 21 09:18 : client: [1] closed
+Nov 21 09:28 : zeroconf: No global port, disabling zeroconf
+Nov 21 09:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 21 09:28 : client: [0] opened from [::1]:47050
+Nov 21 09:28 : client: [1] opened from [::1]:47054
+Nov 21 09:28 : client: [2] opened from 127.0.0.1:46742
+Nov 21 09:43 : client: [2] closed
+Nov 21 09:44 : client: [3] opened from 127.0.0.1:46752
+Nov 21 09:58 : client: [3] closed
+Nov 21 09:58 : client: [1] closed
+Nov 21 21:13 : zeroconf: No global port, disabling zeroconf
+Nov 21 21:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 21 21:13 : client: [0] opened from [::1]:45200
+Nov 21 21:13 : client: [1] opened from 127.0.0.1:42728
+Nov 21 21:13 : client: [2] opened from [::1]:45202
+Nov 21 22:30 : client: [1] closed
+Nov 21 22:30 : client: [0] closed
+Nov 22 13:57 : zeroconf: No global port, disabling zeroconf
+Nov 22 13:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 22 13:57 : client: [0] opened from [::1]:42520
+Nov 22 13:57 : client: [1] opened from 127.0.0.1:34234
+Nov 22 13:57 : client: [2] opened from [::1]:42524
+Nov 22 17:17 : client: [1] closed
+Nov 22 17:17 : client: [2] closed
+Nov 23 12:08 : zeroconf: No global port, disabling zeroconf
+Nov 23 12:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 23 12:08 : client: [0] opened from [::1]:37348
+Nov 23 12:08 : client: [1] opened from 127.0.0.1:46114
+Nov 23 12:08 : client: [2] opened from [::1]:37350
+Nov 23 15:42 : client: [1] closed
+Nov 23 15:42 : client: [3] opened from 127.0.0.1:46116
+Nov 23 15:43 : client: [3] closed
+Nov 23 15:43 : client: [4] opened from 127.0.0.1:46118
+Nov 23 16:54 : client: [4] closed
+Nov 23 16:54 : client: [5] opened from 127.0.0.1:46120
+Nov 23 19:19 : client: [5] closed
+Nov 23 19:19 : client: [2] closed
+Nov 24 09:34 : zeroconf: No global port, disabling zeroconf
+Nov 24 09:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 24 09:34 : client: [0] opened from [::1]:43046
+Nov 24 09:34 : client: [1] opened from 127.0.0.1:41400
+Nov 24 09:34 : client: [2] opened from 127.0.0.1:41404
+Nov 24 09:34 : client: [3] opened from [::1]:43048
+Nov 24 09:49 : client: [2] closed
+Nov 24 09:49 : client: [1] closed
+Nov 24 09:49 : client: [4] opened from 127.0.0.1:41470
+Nov 24 09:49 : client: [5] opened from 127.0.0.1:41472
+Nov 24 09:50 : client: [4] closed
+Nov 24 09:50 : client: [5] closed
+Nov 24 09:50 : client: [6] opened from 127.0.0.1:41474
+Nov 24 09:50 : client: [7] opened from 127.0.0.1:41476
+Nov 24 17:16 : client: [7] closed
+Nov 24 17:16 : client: [6] closed
+Nov 24 17:17 : client: [8] opened from 127.0.0.1:41530
+Nov 24 17:17 : client: [9] opened from 127.0.0.1:41528
+Nov 24 23:24 : client: [8] closed
+Nov 24 23:24 : client: [9] closed
+Nov 24 23:24 : client: [3] closed
+Nov 24 23:24 : client: [0] closed
+Nov 25 11:24 : zeroconf: No global port, disabling zeroconf
+Nov 25 11:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 11:24 : client: [0] opened from [::1]:34826
+Nov 25 11:24 : client: [1] opened from 127.0.0.1:35828
+Nov 25 11:24 : client: [2] opened from 127.0.0.1:35830
+Nov 25 11:24 : client: [3] opened from [::1]:34830
+Nov 25 11:33 : client: [1] closed
+Nov 25 11:33 : client: [2] closed
+Nov 25 11:33 : client: [4] opened from 127.0.0.1:35832
+Nov 25 11:33 : client: [5] opened from 127.0.0.1:35834
+Nov 25 11:41 : client: [5] closed
+Nov 25 11:41 : client: [4] closed
+Nov 25 11:42 : client: [6] opened from 127.0.0.1:35836
+Nov 25 14:18 : client: [6] closed
+Nov 25 14:18 : client: [7] opened from 127.0.0.1:35840
+Nov 25 14:56 : client: [7] closed
+Nov 25 14:56 : client: [8] opened from 127.0.0.1:35844
+Nov 25 16:16 : client: [8] closed
+Nov 25 16:16 : client: [3] closed
+Nov 25 16:44 : zeroconf: No global port, disabling zeroconf
+Nov 25 16:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 16:44 : client: [0] opened from [::1]:47426
+Nov 25 16:44 : client: [1] opened from [::1]:47428
+Nov 25 16:44 : client: [2] opened from 127.0.0.1:47016
+Nov 25 16:45 : client: [2] closed
+Nov 25 16:45 : client: [1] closed
+Nov 25 19:30 : zeroconf: No global port, disabling zeroconf
+Nov 25 19:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 19:30 : client: [0] opened from [::1]:58270
+Nov 25 19:30 : client: [1] opened from 127.0.0.1:35154
+Nov 25 19:30 : client: [2] opened from [::1]:58272
+Nov 25 19:37 : client: [1] closed
+Nov 25 19:37 : client: [3] opened from [::1]:58274
+Nov 25 19:37 : client: [0] command "close" during idle
+Nov 25 19:37 : client: [0] closed
+Nov 25 20:22 : client: [3] closed
+Nov 25 20:28 : zeroconf: No global port, disabling zeroconf
+Nov 25 20:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 20:28 : client: [0] opened from [::1]:58276
+Nov 25 20:28 : client: [1] opened from [::1]:58278
+Nov 25 20:28 : client: [0] command "close" during idle
+Nov 25 20:28 : client: [0] closed
+Nov 25 20:28 : client: [1] closed
+Nov 25 20:29 : client: [2] opened from 127.0.0.1:35164
+Nov 25 22:25 : client: [2] closed
+Nov 26 09:10 : zeroconf: No global port, disabling zeroconf
+Nov 26 09:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 09:10 : client: [0] opened from [::1]:51700
+Nov 26 09:10 : client: [1] opened from 127.0.0.1:33656
+Nov 26 09:10 : client: [2] opened from [::1]:51702
+Nov 26 19:31 : client: [1] closed
+Nov 26 19:31 : client: [2] closed
+Nov 26 20:42 : zeroconf: No global port, disabling zeroconf
+Nov 26 20:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 20:42 : client: [0] opened from [::1]:55266
+Nov 26 20:42 : client: [1] opened from 127.0.0.1:38860
+Nov 26 20:42 : client: [2] opened from [::1]:55268
+Nov 26 21:51 : client: [1] closed
+Nov 26 21:51 : client: [3] opened from 127.0.0.1:38872
+Nov 26 22:53 : client: [3] closed
+Nov 26 22:53 : client: [4] opened from 127.0.0.1:38874
+Nov 26 22:53 : client: [4] closed
+Nov 26 22:53 : client: [5] opened from 127.0.0.1:38876
+Nov 26 23:27 : client: [5] closed
+Nov 26 23:27 : client: [2] closed
+Nov 26 23:50 : zeroconf: No global port, disabling zeroconf
+Nov 26 23:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 23:50 : client: [0] opened from [::1]:52082
+Nov 26 23:50 : client: [1] opened from 127.0.0.1:54406
+Nov 26 23:50 : client: [2] opened from [::1]:52084
+Nov 27 00:04 : client: [1] closed
+Nov 27 00:04 : client: [2] closed
+Nov 27 14:19 : zeroconf: No global port, disabling zeroconf
+Nov 27 14:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 14:19 : client: [0] opened from [::1]:49292
+Nov 27 14:19 : client: [1] opened from [::1]:49296
+Nov 27 14:19 : client: [2] opened from 127.0.0.1:35180
+Nov 27 14:30 : client: [2] closed
+Nov 27 14:30 : client: [3] opened from 127.0.0.1:35182
+Nov 27 14:33 : client: [3] closed
+Nov 27 14:33 : client: [1] closed
+Nov 27 16:12 : zeroconf: No global port, disabling zeroconf
+Nov 27 16:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 16:12 : client: [0] opened from [::1]:47274
+Nov 27 16:12 : client: [1] opened from [::1]:47276
+Nov 27 16:12 : client: [2] opened from 127.0.0.1:39624
+Nov 27 16:12 : client: [3] opened from 127.0.0.1:39622
+Nov 27 16:14 : client: [2] closed
+Nov 27 16:14 : client: [3] closed
+Nov 27 16:14 : client: [4] opened from 127.0.0.1:39626
+Nov 27 16:14 : client: [5] opened from 127.0.0.1:39628
+Nov 27 18:59 : client: [4] closed
+Nov 27 18:59 : client: [5] closed
+Nov 27 18:59 : client: [1] closed
+Nov 27 20:48 : zeroconf: No global port, disabling zeroconf
+Nov 27 20:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 20:48 : client: [0] opened from [::1]:44158
+Nov 27 20:48 : client: [1] opened from [::1]:44160
+Nov 27 20:48 : client: [2] opened from 127.0.0.1:46720
+Nov 27 20:48 : client: [3] opened from 127.0.0.1:46722
+Nov 27 20:53 : client: [2] closed
+Nov 27 20:53 : client: [3] closed
+Nov 27 20:53 : client: [4] opened from 127.0.0.1:46738
+Nov 27 20:53 : client: [5] opened from 127.0.0.1:46740
+Nov 27 21:58 : zeroconf: No global port, disabling zeroconf
+Nov 27 21:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 21:58 : client: [0] opened from [::1]:36578
+Nov 27 21:58 : client: [1] opened from [::1]:36580
+Nov 27 21:58 : client: [2] opened from 127.0.0.1:39078
+Nov 27 21:58 : client: [3] opened from 127.0.0.1:39080
+Nov 27 21:58 : client: [2] closed
+Nov 27 21:58 : client: [3] closed
+Nov 27 21:58 : client: [4] opened from 127.0.0.1:39082
+Nov 27 21:58 : client: [5] opened from 127.0.0.1:39084
+Nov 27 23:59 : client: [5] closed
+Nov 27 23:59 : client: [4] closed
+Nov 28 21:29 : zeroconf: No global port, disabling zeroconf
+Nov 28 21:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 28 21:29 : client: [0] opened from [::1]:44380
+Nov 28 21:29 : client: [1] opened from [::1]:44382
+Nov 28 21:29 : client: [2] opened from 127.0.0.1:48310
+Nov 28 21:29 : client: [3] opened from 127.0.0.1:48308
+Nov 28 21:35 : client: [2] closed
+Nov 28 21:35 : client: [3] closed
+Nov 28 21:35 : client: [4] opened from 127.0.0.1:48312
+Nov 28 21:35 : client: [5] opened from 127.0.0.1:48314
+Nov 28 22:17 : client: [5] closed
+Nov 28 22:17 : client: [4] closed
+Nov 28 22:17 : client: [0] closed
+Nov 29 09:19 : zeroconf: No global port, disabling zeroconf
+Nov 29 09:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 09:19 : client: [0] opened from [::1]:53992
+Nov 29 09:19 : client: [1] opened from [::1]:53994
+Nov 29 09:19 : client: [2] opened from 127.0.0.1:54800
+Nov 29 09:19 : client: [3] opened from 127.0.0.1:54802
+Nov 29 09:53 : client: [2] closed
+Nov 29 09:53 : client: [3] closed
+Nov 29 09:53 : client: [4] opened from 127.0.0.1:54812
+Nov 29 09:53 : client: [5] opened from 127.0.0.1:54814
+Nov 29 11:10 : client: [4] closed
+Nov 29 11:10 : client: [5] closed
+Nov 29 11:10 : client: [1] closed
+Nov 29 17:20 : zeroconf: No global port, disabling zeroconf
+Nov 29 17:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 17:20 : client: [0] opened from [::1]:50826
+Nov 29 17:20 : client: [1] opened from 127.0.0.1:51528
+Nov 29 17:20 : client: [2] opened from 127.0.0.1:51530
+Nov 29 17:20 : client: [3] opened from [::1]:50828
+Nov 29 17:20 : client: [1] closed
+Nov 29 17:20 : client: [2] closed
+Nov 29 11:50 : client: [4] opened from [::1]:50830
+Nov 29 11:50 : client: [0] command "close" during idle
+Nov 29 11:50 : client: [0] closed
+Nov 29 11:51 : client: [4] closed
+Nov 29 11:51 : client: [5] opened from 127.0.0.1:51532
+Nov 29 11:51 : client: [6] opened from 127.0.0.1:51534
+Nov 29 11:52 : client: [5] closed
+Nov 29 11:52 : client: [6] closed
+Nov 29 11:52 : client: [7] opened from 127.0.0.1:51536
+Nov 29 11:52 : client: [8] opened from 127.0.0.1:51538
+Nov 29 22:08 : client: [7] closed
+Nov 29 22:08 : client: [8] closed
+Nov 29 22:08 : client: [3] closed
+Nov 30 08:58 : zeroconf: No global port, disabling zeroconf
+Nov 30 08:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 30 08:58 : client: [0] opened from [::1]:39972
+Nov 30 08:58 : client: [1] opened from [::1]:39974
+Nov 30 08:58 : client: [2] opened from 127.0.0.1:55264
+Nov 30 08:59 : client: [2] closed
+Nov 30 08:59 : client: [3] opened from 127.0.0.1:55268
+Nov 30 08:59 : client: [4] opened from 127.0.0.1:55270
+Nov 30 09:01 : client: [3] closed
+Nov 30 09:01 : client: [4] closed
+Nov 30 09:01 : client: [5] opened from 127.0.0.1:55272
+Nov 30 09:01 : client: [6] opened from 127.0.0.1:55274
+Nov 30 12:25 : client: [6] closed
+Nov 30 12:25 : client: [5] closed
+Nov 30 12:25 : client: [1] closed
+Nov 30 16:56 : zeroconf: No global port, disabling zeroconf
+Nov 30 16:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 30 16:56 : client: [0] opened from [::1]:52902
+Nov 30 16:56 : client: [1] opened from 127.0.0.1:47232
+Nov 30 16:56 : client: [2] opened from 127.0.0.1:47234
+Nov 30 16:56 : client: [3] opened from [::1]:52904
+Nov 30 16:57 : client: [2] closed
+Nov 30 16:57 : client: [1] closed
+Nov 30 16:57 : client: [4] opened from 127.0.0.1:47238
+Nov 30 16:57 : client: [5] opened from 127.0.0.1:47240
+Nov 30 17:48 : client: [4] closed
+Nov 30 17:48 : client: [5] closed
+Nov 30 17:48 : client: [3] closed
+Dec 01 11:18 : zeroconf: No global port, disabling zeroconf
+Dec 01 11:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 11:18 : client: [0] opened from [::1]:49420
+Dec 01 11:18 : client: [1] opened from 127.0.0.1:41926
+Dec 01 11:18 : client: [2] opened from 127.0.0.1:41928
+Dec 01 11:18 : client: [3] opened from [::1]:49422
+Dec 01 12:09 : client: [2] closed
+Dec 01 12:09 : client: [1] closed
+Dec 01 12:09 : client: [4] opened from 127.0.0.1:41930
+Dec 01 12:09 : client: [5] opened from 127.0.0.1:41932
+Dec 01 12:11 : client: [4] closed
+Dec 01 12:11 : client: [5] closed
+Dec 01 12:12 : zeroconf: No global port, disabling zeroconf
+Dec 01 12:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 12:12 : client: [0] opened from [::1]:49424
+Dec 01 12:12 : client: [1] opened from 127.0.0.1:41934
+Dec 01 12:23 : client: [1] closed
+Dec 01 12:23 : client: [2] opened from 127.0.0.1:42268
+Dec 01 14:33 : client: [2] closed
+Dec 01 14:33 : client: [3] opened from 127.0.0.1:42684
+Dec 01 14:33 : client: [4] opened from 127.0.0.1:42688
+Dec 01 14:33 : client: [4] closed
+Dec 01 14:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 14:33 : client: [5] opened from 127.0.0.1:42690
+Dec 01 14:33 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Dec 01 14:33 : client: [5] closed
+Dec 01 16:19 : client: [3] closed
+Dec 01 16:19 : client: [6] opened from 127.0.0.1:42796
+Dec 01 16:58 : client: [6] closed
+Dec 01 16:58 : client: [7] opened from 127.0.0.1:42798
+Dec 01 21:39 : client: [7] closed
+Dec 02 16:07 : zeroconf: No global port, disabling zeroconf
+Dec 02 16:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 16:07 : client: [0] opened from [::1]:56130
+Dec 02 16:07 : client: [1] opened from 127.0.0.1:42894
+Dec 02 16:07 : client: [2] opened from [::1]:56132
+Dec 02 10:38 : client: [1] closed
+Dec 02 10:38 : client: [3] opened from 127.0.0.1:42898
+Dec 02 10:46 : client: [3] closed
+Dec 02 10:46 : client: [4] opened from 127.0.0.1:42900
+Dec 02 11:02 : client: [4] closed
+Dec 02 11:02 : client: [5] opened from 127.0.0.1:42902
+Dec 02 11:02 : client: [5] closed
+Dec 02 11:03 : client: [6] opened from 127.0.0.1:42904
+Dec 02 11:03 : client: [7] opened from 127.0.0.1:42906
+Dec 02 11:11 : client: [7] closed
+Dec 02 11:11 : client: [6] closed
+Dec 02 11:11 : client: [8] opened from 127.0.0.1:42908
+Dec 02 11:11 : client: [9] opened from 127.0.0.1:42910
+Dec 02 11:29 : client: [9] closed
+Dec 02 11:29 : client: [8] closed
+Dec 02 11:29 : client: [2] closed
+Dec 02 16:00 : zeroconf: No global port, disabling zeroconf
+Dec 02 16:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 16:00 : client: [0] opened from [::1]:47302
+Dec 02 16:00 : client: [1] opened from 127.0.0.1:52148
+Dec 02 16:00 : client: [2] opened from [::1]:47304
+Dec 02 16:01 : client: [1] closed
+Dec 02 16:01 : client: [2] closed
+Dec 02 16:02 : zeroconf: No global port, disabling zeroconf
+Dec 02 16:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 16:02 : client: [0] opened from [::1]:55968
+Dec 02 16:02 : client: [1] opened from 127.0.0.1:54120
+Dec 02 16:02 : client: [2] opened from [::1]:55970
+Dec 02 16:06 : client: [3] opened from 127.0.0.1:54122
+Dec 02 16:06 : client: [3] closed
+Dec 02 16:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 16:10 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Dec 02 16:11 : client: [4] opened from 127.0.0.1:54124
+Dec 02 16:11 : client: [4] closed
+Dec 02 16:11 : client: [5] opened from 127.0.0.1:54126
+Dec 02 16:11 : client: [5] closed
+Dec 02 16:11 : client: [6] opened from 127.0.0.1:54128
+Dec 02 16:11 : client: [6] closed
+Dec 02 16:11 : client: [7] opened from 127.0.0.1:54130
+Dec 02 16:11 : client: [7] closed
+Dec 02 16:15 : player: played "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video].flac"
+Dec 02 16:19 : player: played "DJ Snake - Let Me Love You ft. Justin Bieber (Official Video).flac"
+Dec 02 16:23 : player: played "Maroon 5 - Girls Like You ft. Cardi B (Volume 2) (Official Music Video).flac"
+Dec 02 16:27 : player: played "Shawn Mendes, Camila Cabello - Señorita.flac"
+Dec 02 16:31 : player: played "Alan Walker, Sabrina Carpenter & Farruko  - On My Way.flac"
+Dec 02 16:34 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Dec 02 16:37 : player: played "Anne-Marie - Ciao Adios [Official Video].flac"
+Dec 02 16:41 : player: played "Anne-Marie - Ciao Adios [Official Video].mp3"
+Dec 02 16:45 : player: played "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video].flac"
+Dec 02 16:48 : player: played "DJ Snake - Let Me Love You ft. Justin Bieber (Official Video).flac"
+Dec 02 16:53 : player: played "Maroon 5 - Girls Like You ft. Cardi B (Volume 2) (Official Music Video).flac"
+Dec 02 16:56 : player: played "Shawn Mendes, Camila Cabello - Señorita.flac"
+Dec 02 18:35 : client: [1] closed
+Dec 02 18:35 : client: [2] closed
+Dec 03 10:35 : zeroconf: No global port, disabling zeroconf
+Dec 03 10:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 10:35 : client: [0] opened from 127.0.0.1:34022
+Dec 03 10:35 : client: [1] opened from 127.0.0.1:34024
+Dec 03 10:35 : client: [2] opened from 127.0.0.1:34026
+Dec 03 11:12 : client: [1] closed
+Dec 03 11:12 : client: [2] closed
+Dec 03 12:01 : zeroconf: No global port, disabling zeroconf
+Dec 03 12:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 12:01 : client: [0] opened from [::1]:35900
+Dec 03 12:01 : client: [1] opened from [::1]:35902
+Dec 03 12:01 : client: [2] opened from 127.0.0.1:40120
+Dec 03 15:51 : zeroconf: No global port, disabling zeroconf
+Dec 03 15:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 15:51 : client: [0] opened from [::1]:36112
+Dec 03 15:51 : client: [1] opened from [::1]:36114
+Dec 03 15:51 : client: [2] opened from 127.0.0.1:46572
+Dec 03 16:55 : client: [2] closed
+Dec 03 16:55 : zeroconf: No global port, disabling zeroconf
+Dec 03 16:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 16:55 : client: [0] opened from [::1]:36116
+Dec 03 16:55 : client: [1] opened from [::1]:36118
+Dec 03 16:55 : client: [0] command "close" during idle
+Dec 03 16:55 : client: [0] closed
+Dec 03 18:18 : client: [1] closed
+Dec 03 19:40 : zeroconf: No global port, disabling zeroconf
+Dec 03 19:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 19:40 : client: [0] opened from [::1]:55862
+Dec 03 19:40 : client: [1] opened from 127.0.0.1:51804
+Dec 03 19:40 : client: [2] opened from [::1]:55864
+Dec 03 21:31 : zeroconf: No global port, disabling zeroconf
+Dec 03 21:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 21:31 : client: [0] opened from [::1]:55542
+Dec 03 21:31 : client: [1] opened from [::1]:55546
+Dec 03 21:31 : client: [2] opened from 127.0.0.1:48580
+Dec 03 22:25 : client: [3] opened from 127.0.0.1:48582
+Dec 03 22:25 : client: [3] closed
+Dec 03 22:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 22:25 : client: [4] opened from 127.0.0.1:48584
+Dec 03 22:25 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Dec 03 22:25 : client: [4] closed
+Dec 04 00:02 : client: [5] opened from 127.0.0.1:48588
+Dec 04 00:02 : client: [5] closed
+Dec 04 00:03 : client: [6] opened from 127.0.0.1:48590
+Dec 04 00:03 : client: [6] closed
+Dec 04 00:03 : client: [7] opened from 127.0.0.1:48592
+Dec 04 00:03 : client: [7] closed
+Dec 04 00:03 : client: [8] opened from 127.0.0.1:48596
+Dec 04 00:03 : client: [8] closed
+Dec 04 00:03 : client: [9] opened from 127.0.0.1:48598
+Dec 04 00:03 : client: [9] closed
+Dec 04 00:03 : client: [10] opened from 127.0.0.1:48600
+Dec 04 00:03 : client: [10] closed
+Dec 04 00:03 : client: [11] opened from 127.0.0.1:48602
+Dec 04 00:03 : client: [11] closed
+Dec 04 00:03 : client: [12] opened from 127.0.0.1:48604
+Dec 04 00:03 : client: [12] closed
+Dec 04 00:06 : player: played "Alan Walker, Sabrina Carpenter & Farruko  - On My Way.flac"
+Dec 04 00:07 : client: [13] opened from 127.0.0.1:48606
+Dec 04 00:07 : client: [13] closed
+Dec 04 00:07 : client: [14] opened from 127.0.0.1:48608
+Dec 04 00:07 : client: [14] closed
+Dec 04 00:07 : client: [15] opened from 127.0.0.1:48612
+Dec 04 00:07 : client: [15] closed
+Dec 04 00:07 : client: [16] opened from 127.0.0.1:48616
+Dec 04 00:07 : client: [16] closed
+Dec 04 00:07 : client: [17] opened from 127.0.0.1:48618
+Dec 04 00:07 : client: [17] closed
+Dec 04 00:10 : client: [18] opened from 127.0.0.1:48620
+Dec 04 00:10 : client: [18] closed
+Dec 04 00:11 : client: [19] opened from 127.0.0.1:48622
+Dec 04 00:11 : client: [19] closed
+Dec 04 00:11 : client: [20] opened from 127.0.0.1:48624
+Dec 04 00:11 : player: played "Alan Walker, Sabrina Carpenter & Farruko  - On My Way.flac"
+Dec 04 00:11 : client: [20] closed
+Dec 04 10:09 : zeroconf: No global port, disabling zeroconf
+Dec 04 10:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 04 10:09 : client: [0] opened from [::1]:33678
+Dec 04 10:09 : client: [1] opened from [::1]:33680
+Dec 04 10:09 : client: [2] opened from 127.0.0.1:50102
+Dec 04 10:16 : client: [2] closed
+Dec 04 10:17 : client: [3] opened from [::1]:33682
+Dec 04 10:17 : client: [0] command "close" during idle
+Dec 04 10:17 : client: [0] closed
+Dec 04 11:37 : client: [3] closed
+Dec 04 11:38 : zeroconf: No global port, disabling zeroconf
+Dec 04 11:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 04 11:38 : client: [0] opened from [::1]:33684
+Dec 04 11:38 : client: [1] opened from [::1]:33686
+Dec 04 11:38 : client: [0] command "close" during idle
+Dec 04 11:38 : client: [0] closed
+Dec 04 11:38 : client: [1] closed
+Dec 04 11:38 : client: [2] opened from 127.0.0.1:50104
+Dec 04 11:38 : client: [3] opened from 127.0.0.1:50106
+Dec 04 14:30 : client: [2] closed
+Dec 04 14:30 : client: [3] closed
+Dec 04 14:30 : client: [4] opened from 127.0.0.1:50110
+Dec 04 14:30 : client: [5] opened from 127.0.0.1:50112
+Dec 04 16:42 : client: [5] closed
+Dec 04 16:42 : client: [4] closed
+Dec 04 18:55 : zeroconf: No global port, disabling zeroconf
+Dec 04 18:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 04 18:55 : client: [0] opened from [::1]:53234
+Dec 04 18:55 : client: [1] opened from 127.0.0.1:35644
+Dec 04 18:55 : client: [2] opened from [::1]:53236
+Dec 04 18:55 : client: [3] opened from 127.0.0.1:35646
+Dec 04 18:55 : client: [1] closed
+Dec 04 18:55 : client: [3] closed
+Dec 04 18:56 : client: [4] opened from [::1]:53238
+Dec 04 18:56 : client: [0] command "close" during idle
+Dec 04 18:56 : client: [0] closed
+Dec 04 22:37 : client: [2] closed
+Dec 04 23:35 : zeroconf: No global port, disabling zeroconf
+Dec 04 23:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 04 23:35 : client: [0] opened from [::1]:58282
+Dec 04 23:35 : client: [1] opened from [::1]:58284
+Dec 04 23:35 : client: [2] opened from [::1]:58286
+Dec 04 23:35 : client: [0] command "close" during idle
+Dec 04 23:35 : client: [0] closed
+Dec 04 23:36 : client: [2] closed
+Dec 04 23:36 : client: [1] closed
+Dec 05 10:44 : zeroconf: No global port, disabling zeroconf
+Dec 05 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 10:44 : client: [0] opened from [::1]:36904
+Dec 05 10:45 : client: [1] opened from [::1]:36906
+Dec 05 10:45 : client: [2] opened from [::1]:36908
+Dec 05 10:45 : client: [0] command "close" during idle
+Dec 05 10:45 : client: [0] closed
+Dec 05 10:45 : client: [2] closed
+Dec 05 10:45 : zeroconf: No global port, disabling zeroconf
+Dec 05 10:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 10:45 : client: [0] opened from [::1]:36910
+Dec 05 10:45 : client: [1] opened from 127.0.0.1:53832
+Dec 05 10:45 : client: [2] opened from 127.0.0.1:53834

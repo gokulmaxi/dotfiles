@@ -98,3 +98,5 @@ source /home/gokul/.local/bin/ros-fun
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh
+alias nt="cd /media/data/notes"
+source /opt/ros/noetic/setup.zsh

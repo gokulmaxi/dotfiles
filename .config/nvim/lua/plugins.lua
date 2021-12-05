@@ -52,6 +52,7 @@ return require('packer').startup(function()
     use{'hrsh7th/cmp-path'}
     use{'kdheepak/cmp-latex-symbols'}
     use{'hrsh7th/cmp-nvim-lsp'}
+    use 'aspeddro/cmp-pandoc.nvim'
     -- nvim telescope
     use {
         'nvim-telescope/telescope.nvim',
@@ -108,5 +109,12 @@ return require('packer').startup(function()
     use 'KeitaNakamura/tex-conceal.vim'
     use 'matze/vim-tex-fold'
     use 'ekickx/clipboard-image.nvim'
-
+    use {
+  'aspeddro/pandoc.nvim',
+ requires = {
+    'nvim-lua/plenary.nvim',
+    'jbyuki/nabla.nvim' -- Optional. See Extra Features
+  },
+  use('vim-pandoc/vim-pandoc')
+}
 end)

@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-omni",
     url = "https://github.com/hrsh7th/cmp-omni"
   },
+  ["cmp-pandoc.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-pandoc.nvim",
+    url = "https://github.com/aspeddro/cmp-pandoc.nvim"
+  },
   ["cmp-path"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/cmp-path",
@@ -173,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
+  ["nabla.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/nabla.nvim",
+    url = "https://github.com/jbyuki/nabla.nvim"
   },
   neoformat = {
     loaded = true,
@@ -248,6 +258,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["pandoc.nvim"] = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/pandoc.nvim",
+    url = "https://github.com/aspeddro/pandoc.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,

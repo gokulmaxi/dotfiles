@@ -239,6 +239,13 @@ local mappings = {
                j = "Go to the down window",
        },
 
+-- nnoremap <F5> :lua require("nabla").action()<CR>
+-- nnoremap <leader>p :lua require("nabla").popup()<CR> " Customize with popup({border = ...})
+  p = {
+        name="+pandoc",
+        a={'<cmd>lua require("nabla").action()<CR>','nable action'},
+        p={'<cmd>lua require("nabla").popup()<CR>','nablua popup'},
+  }
 }
 
 local wk = require("which-key")

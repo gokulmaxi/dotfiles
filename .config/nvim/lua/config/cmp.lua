@@ -55,6 +55,7 @@ local cmp = require'cmp'
         {name = 'omni',
         filetypes = {'tex'},},
         -- {name = 'latex_symbols'},
-        {name = 'path'}
+        {name = 'path'},
+        {name = 'cmp_pandoc'}
     }
   })
