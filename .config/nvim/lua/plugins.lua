@@ -115,6 +115,7 @@ return require('packer').startup(function()
     'nvim-lua/plenary.nvim',
     'jbyuki/nabla.nvim' -- Optional. See Extra Features
   },
-  use('vim-pandoc/vim-pandoc')
+  use('vim-pandoc/vim-pandoc'),
+  use('thibthib18/ros-nvim')
 }
 end)

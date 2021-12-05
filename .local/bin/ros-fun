@@ -35,7 +35,7 @@ alias rh='cd $(echo $CMAKE_PREFIX_PATH | cut -d ':' -f 1);cd ..'
 
 # Automatic catkin_make from any folder (use in conjunction with the above one-liner)
 cb() {
-  (rh&& exec catkin build --summarize "$@")
+  (rh&& exec catkin build --summarize "$@" && jq -s 'map(.[])' build/**/compile_commands.json > compile_commands.json)
 }
 
 # Automatic catkin_make from any folder (use in conjunction with the above one-liner)

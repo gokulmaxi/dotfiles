@@ -178,6 +178,17 @@ local mappings = {
         },
     },
 
+    r = {
+        name = "+ROS",
+        f = {"<cmd>lua require('ros-nvim.telescope.package').search_package()<cr>", "Search files"},
+        g = {"<cmd>lua require('ros-nvim.telescope.package').grep_package()<cr>", "live grep"},
+        t = {"<cmd>lua require('ros-nvim.telescope.pickers').topic_picker()<cr>", "List topic" },
+        n = {"<cmd>lua require('ros-nvim.telescope.pickers').topic_picker()<cr>", "Node list"},
+        s = {"<cmd>lua require('ros-nvim.telescope.pickers').service_picker()<cr>", "Service  list"},
+        S = {"<cmd>lua require('ros-nvim.telescope.pickers').srv_picker()<cr>", "Service definition"},
+        m = {"<cmd>lua require('ros-nvim.telescope.pickers').msg_picker()<cr>","message defintion"},
+
+    },
     s = {
         name = "+Search",
         b = {"<cmd>Telescope git_branches<cr>", "Checkout branch"},

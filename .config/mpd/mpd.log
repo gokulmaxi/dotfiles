@@ -2169,3 +2169,7 @@ Dec 05 10:45 : exception: RTIOThread could not get realtime scheduling, continui
 Dec 05 10:45 : client: [0] opened from [::1]:36910
 Dec 05 10:45 : client: [1] opened from 127.0.0.1:53832
 Dec 05 10:45 : client: [2] opened from 127.0.0.1:53834
+Dec 05 15:13 : client: [2] closed
+Dec 05 15:13 : client: [1] closed
+Dec 05 15:14 : client: [3] opened from 127.0.0.1:53868
+Dec 05 15:14 : client: [4] opened from 127.0.0.1:53870
