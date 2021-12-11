@@ -18,7 +18,7 @@ return require('packer').startup(function()
     -- LSP config
     use {'neovim/nvim-lspconfig'}
     use {"glepnir/lspsaga.nvim"}
-    use{"kabouzeid/nvim-lspinstall"}
+    use {'williamboman/nvim-lsp-installer'}
     use {'sbdchd/neoformat'}
     -- Snippets
     use {'hrsh7th/vim-vsnip'}
@@ -86,8 +86,6 @@ return require('packer').startup(function()
     use {"terrortylor/nvim-comment"}
     --rainbow coloriser
     use {"p00f/nvim-ts-rainbow"}
-    --ctags
-    use('preservim/tagbar')
     -- floatterm inside nvim
     use('voldikss/vim-floaterm')
     --docxygen toolkit for nvim
@@ -106,7 +104,6 @@ return require('packer').startup(function()
     -- use 'brennier/quicktex'
     use 'xuhdev/vim-latex-live-preview'
     -- conceals latex texts
-    use 'KeitaNakamura/tex-conceal.vim'
     use 'matze/vim-tex-fold'
     use 'ekickx/clipboard-image.nvim'
     use {

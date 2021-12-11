@@ -187,7 +187,9 @@ local mappings = {
         s = {"<cmd>lua require('ros-nvim.telescope.pickers').service_picker()<cr>", "Service  list"},
         S = {"<cmd>lua require('ros-nvim.telescope.pickers').srv_picker()<cr>", "Service definition"},
         m = {"<cmd>lua require('ros-nvim.telescope.pickers').msg_picker()<cr>","message defintion"},
-
+        b = {"<cmd>lua require('ros-nvim.build').catkin_make()<cr>","catkin build"},
+        p = {"<cmd>lua require('ros-nvim.build').catkin_make_pkg()<cr>", "catkin build pkg"},
+        t = {"<leader>rt <cmd>lua require('ros-nvim.test').rostest()<cr>","ros-test"},
     },
     s = {
         name = "+Search",
