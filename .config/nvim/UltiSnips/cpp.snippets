@@ -212,3 +212,17 @@ endsnippet
 snippet rospub 
 ros::Publisher pub_${1}= n.advertise<${2}>("${3}", 1000);
 endsnippet
+
+snippet cfgcallback
+void callback(${0} config, uint32_t level) {
+  ROS_INFO("Reconfigure Request:  %f ", 
+            config.${1});
+}
+endsnippet
+snippet cfgserver
+  dynamic_reconfigure::Server<${0}> server;
+  dynamic_reconfigure::Server<${0}>::CallbackType f;
+
+  f = boost::bind(&callback, _1, _2);
+  server.setCallback(f);
+endsnippet

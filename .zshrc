@@ -99,4 +99,11 @@ source /home/gokul/.local/bin/ros-fun
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh
 alias nt="cd /media/data/notes"
+alias spotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 source /opt/ros/noetic/setup.zsh
+source ~/ros-master.sh
+export ROSCONSOLE_FORMAT='${node}:${message}'
+# cd projects/ros/flipkart-challenge/
+# sws
+# alias COD="roslaunch flipbot2_base collision_detector.launch"
+# alias FR2="roslaunch flipbot2_base flipkart_round2.launch"
