@@ -4,8 +4,8 @@ capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 require'lspconfig'.texlab.setup{
           capabilities = capabilities,
 }
-require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim
-require("prosesitter"):setup()
+-- require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim
+-- require("prosesitter"):setup()
 vim.g.diagnostic_enable_virtual_text = 0
 vim.g.tex_superscripts= "[0-9a-zA-W.,:;+-<>/()=]"
 vim.g.tex_subscripts= "[0-9aehijklmnoprstuvx,+-/().]"

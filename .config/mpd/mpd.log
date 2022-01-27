@@ -3244,3 +3244,287 @@ Jan 23 09:34 : exception: RTIOThread could not get realtime scheduling, continui
 Jan 23 09:34 : client: [0] opened from 127.0.0.1:59560
 Jan 23 09:34 : client: [1] opened from 127.0.0.1:59562
 Jan 23 09:34 : client: [2] opened from 127.0.0.1:59564
+Jan 23 23:32 : client: [2] closed
+Jan 23 23:32 : client: [1] closed
+Jan 23 23:32 : client: [0] closed
+Jan 24 09:15 : zeroconf: No global port, disabling zeroconf
+Jan 24 09:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 09:15 : client: [0] opened from [::1]:42612
+Jan 24 09:15 : client: [1] opened from [::1]:42614
+Jan 24 09:15 : client: [2] opened from 127.0.0.1:42528
+Jan 24 15:17 : client: [2] closed
+Jan 24 15:17 : client: [3] opened from 127.0.0.1:42536
+Jan 24 22:19 : client: [3] closed
+Jan 24 22:19 : client: [1] closed
+Jan 24 22:19 : client: [0] closed
+Jan 25 13:25 : zeroconf: No global port, disabling zeroconf
+Jan 25 13:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 13:25 : client: [0] opened from 127.0.0.1:44386
+Jan 25 13:25 : client: [1] opened from 127.0.0.1:44390
+Jan 25 13:25 : client: [2] opened from 127.0.0.1:44392
+Jan 25 20:09 : client: [1] closed
+Jan 25 20:09 : client: [2] closed
+Jan 25 20:09 : client: [0] closed
+Jan 25 22:01 : zeroconf: No global port, disabling zeroconf
+Jan 25 22:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 22:01 : client: [0] opened from [::1]:34754
+Jan 25 22:01 : client: [1] opened from [::1]:34756
+Jan 25 22:02 : client: [2] opened from 127.0.0.1:33650
+Jan 25 22:50 : client: [2] closed
+Jan 25 22:50 : client: [0] closed
+Jan 26 14:35 : zeroconf: No global port, disabling zeroconf
+Jan 26 14:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 14:35 : client: [0] opened from 127.0.0.1:57066
+Jan 26 14:36 : client: [1] opened from 127.0.0.1:57068
+Jan 26 14:36 : client: [2] opened from 127.0.0.1:57070
+Jan 26 15:13 : client: [1] closed
+Jan 26 15:13 : client: [2] closed
+Jan 26 16:11 : zeroconf: No global port, disabling zeroconf
+Jan 26 16:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 16:11 : client: [0] opened from 127.0.0.1:34710
+Jan 26 16:11 : client: [1] opened from 127.0.0.1:34712
+Jan 26 16:11 : client: [2] opened from 127.0.0.1:34714
+Jan 26 16:12 : client: [1] closed
+Jan 26 16:12 : client: [2] closed
+Jan 26 21:02 : zeroconf: No global port, disabling zeroconf
+Jan 26 21:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 21:02 : client: [0] opened from [::1]:37284
+Jan 26 21:02 : client: [1] opened from 127.0.0.1:38400
+Jan 26 21:02 : client: [2] opened from [::1]:37286
+Jan 26 21:31 : client: [1] closed
+Jan 26 21:31 : client: [2] closed
+Jan 27 09:13 : zeroconf: No global port, disabling zeroconf
+Jan 27 09:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 27 09:13 : client: [0] opened from 127.0.0.1:40614
+Jan 27 09:13 : client: [1] opened from 127.0.0.1:40616
+Jan 27 09:13 : client: [2] opened from 127.0.0.1:40618
+Jan 27 15:19 : client: [1] closed
+Jan 27 16:59 : zeroconf: No global port, disabling zeroconf
+Jan 27 16:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 27 16:59 : client: [0] opened from 127.0.0.1:57220
+Jan 27 16:59 : client: [1] opened from 127.0.0.1:57224
+Jan 27 16:59 : client: [2] opened from 127.0.0.1:57226
+Jan 27 17:02 : client: [1] closed
+Jan 27 17:02 : client: [3] opened from 127.0.0.1:57228
+Jan 27 17:03 : client: [3] closed
+Jan 27 17:03 : client: [4] opened from 127.0.0.1:57230
+Jan 27 17:03 : client: [4] closed
+Jan 27 17:03 : client: [5] opened from 127.0.0.1:57232
+Jan 27 17:03 : client: [5] closed
+Jan 27 17:03 : client: [6] opened from 127.0.0.1:57234
+Jan 27 17:03 : client: [6] closed
+Jan 27 17:03 : client: [7] opened from 127.0.0.1:57236
+Jan 27 17:03 : client: [7] closed
+Jan 27 17:03 : client: [8] opened from 127.0.0.1:57238
+Jan 27 17:03 : client: [8] closed
+Jan 27 17:03 : client: [9] opened from 127.0.0.1:57240
+Jan 27 17:03 : client: [9] closed
+Jan 27 17:03 : client: [10] opened from 127.0.0.1:57242
+Jan 27 17:04 : client: [10] closed
+Jan 27 17:04 : client: [11] opened from 127.0.0.1:57244
+Jan 27 17:04 : client: [11] closed
+Jan 27 17:04 : client: [12] opened from 127.0.0.1:57246
+Jan 27 17:04 : client: [12] closed
+Jan 27 17:04 : client: [13] opened from 127.0.0.1:57248
+Jan 27 17:04 : client: [13] closed
+Jan 27 17:04 : client: [14] opened from 127.0.0.1:57250
+Jan 27 17:04 : client: [14] closed
+Jan 27 17:04 : client: [15] opened from 127.0.0.1:57252
+Jan 27 17:04 : client: [15] closed
+Jan 27 17:04 : client: [16] opened from 127.0.0.1:57254
+Jan 27 17:04 : client: [16] closed
+Jan 27 17:04 : client: [17] opened from 127.0.0.1:57256
+Jan 27 17:04 : client: [17] closed
+Jan 27 17:04 : client: [18] opened from 127.0.0.1:57258
+Jan 27 17:04 : client: [18] closed
+Jan 27 17:04 : client: [19] opened from 127.0.0.1:57262
+Jan 27 17:04 : client: [19] closed
+Jan 27 17:04 : client: [20] opened from 127.0.0.1:57264
+Jan 27 17:05 : client: [20] closed
+Jan 27 17:05 : client: [21] opened from 127.0.0.1:57266
+Jan 27 17:05 : client: [21] closed
+Jan 27 17:05 : client: [22] opened from 127.0.0.1:57268
+Jan 27 17:05 : client: [22] closed
+Jan 27 17:05 : client: [23] opened from 127.0.0.1:57270
+Jan 27 17:05 : client: [23] closed
+Jan 27 17:05 : client: [24] opened from 127.0.0.1:57272
+Jan 27 17:05 : client: [24] closed
+Jan 27 17:05 : client: [25] opened from 127.0.0.1:57274
+Jan 27 17:07 : client: [25] closed
+Jan 27 17:07 : client: [26] opened from 127.0.0.1:57276
+Jan 27 17:08 : client: [26] closed
+Jan 27 17:08 : client: [27] opened from 127.0.0.1:57278
+Jan 27 17:09 : client: [27] closed
+Jan 27 17:09 : client: [28] opened from 127.0.0.1:57280
+Jan 27 17:10 : client: [28] closed
+Jan 27 17:10 : client: [29] opened from 127.0.0.1:57282
+Jan 27 17:10 : client: [29] closed
+Jan 27 17:10 : client: [30] opened from 127.0.0.1:57284
+Jan 27 17:10 : client: [30] closed
+Jan 27 17:10 : client: [31] opened from 127.0.0.1:57286
+Jan 27 17:14 : client: [31] closed
+Jan 27 17:14 : client: [32] opened from 127.0.0.1:57288
+Jan 27 17:14 : client: [32] closed
+Jan 27 17:14 : client: [33] opened from 127.0.0.1:57290
+Jan 27 17:14 : client: [33] closed
+Jan 27 17:14 : client: [34] opened from 127.0.0.1:57292
+Jan 27 17:14 : client: [34] closed
+Jan 27 17:14 : client: [35] opened from 127.0.0.1:57294
+Jan 27 17:14 : client: [35] closed
+Jan 27 17:14 : client: [36] opened from 127.0.0.1:57296
+Jan 27 17:14 : client: [36] closed
+Jan 27 17:14 : client: [37] opened from 127.0.0.1:57298
+Jan 27 17:15 : client: [37] closed
+Jan 27 17:15 : client: [38] opened from 127.0.0.1:57300
+Jan 27 17:15 : client: [38] closed
+Jan 27 17:15 : client: [39] opened from 127.0.0.1:57302
+Jan 27 17:16 : client: [39] closed
+Jan 27 17:16 : client: [40] opened from 127.0.0.1:57304
+Jan 27 17:16 : client: [40] closed
+Jan 27 17:16 : client: [41] opened from 127.0.0.1:57306
+Jan 27 17:16 : client: [41] closed
+Jan 27 17:16 : client: [42] opened from 127.0.0.1:57308
+Jan 27 17:16 : client: [42] closed
+Jan 27 17:16 : client: [43] opened from 127.0.0.1:57310
+Jan 27 17:16 : client: [43] closed
+Jan 27 17:16 : client: [44] opened from 127.0.0.1:57312
+Jan 27 17:16 : client: [44] closed
+Jan 27 17:16 : client: [45] opened from 127.0.0.1:57314
+Jan 27 17:17 : client: [45] closed
+Jan 27 17:17 : client: [46] opened from 127.0.0.1:57316
+Jan 27 17:17 : client: [46] closed
+Jan 27 17:17 : client: [47] opened from 127.0.0.1:57318
+Jan 27 17:17 : client: [47] closed
+Jan 27 17:17 : client: [48] opened from 127.0.0.1:57320
+Jan 27 17:19 : client: [48] closed
+Jan 27 17:19 : client: [49] opened from 127.0.0.1:57322
+Jan 27 17:19 : client: [49] closed
+Jan 27 17:19 : client: [50] opened from 127.0.0.1:57324
+Jan 27 17:19 : client: [50] closed
+Jan 27 17:19 : client: [51] opened from 127.0.0.1:57326
+Jan 27 17:19 : client: [51] closed
+Jan 27 17:19 : client: [52] opened from 127.0.0.1:57328
+Jan 27 17:19 : client: [52] closed
+Jan 27 17:19 : client: [53] opened from 127.0.0.1:57330
+Jan 27 17:20 : client: [53] closed
+Jan 27 17:20 : client: [54] opened from 127.0.0.1:57332
+Jan 27 17:20 : client: [54] closed
+Jan 27 17:20 : client: [55] opened from 127.0.0.1:57334
+Jan 27 17:20 : client: [55] closed
+Jan 27 17:20 : client: [56] opened from 127.0.0.1:57338
+Jan 27 17:21 : client: [56] closed
+Jan 27 17:21 : client: [57] opened from 127.0.0.1:57340
+Jan 27 17:21 : client: [57] closed
+Jan 27 17:21 : client: [58] opened from 127.0.0.1:57344
+Jan 27 17:21 : client: [58] closed
+Jan 27 17:21 : client: [59] opened from 127.0.0.1:57346
+Jan 27 17:21 : client: [59] closed
+Jan 27 17:21 : client: [60] opened from 127.0.0.1:57348
+Jan 27 17:21 : client: [60] closed
+Jan 27 17:21 : client: [61] opened from 127.0.0.1:57350
+Jan 27 17:21 : client: [61] closed
+Jan 27 17:21 : client: [62] opened from 127.0.0.1:57352
+Jan 27 17:22 : client: [62] closed
+Jan 27 17:22 : client: [63] opened from 127.0.0.1:57354
+Jan 27 17:22 : client: [63] closed
+Jan 27 17:22 : client: [64] opened from 127.0.0.1:57356
+Jan 27 17:23 : client: [64] closed
+Jan 27 17:23 : client: [65] opened from 127.0.0.1:57358
+Jan 27 17:23 : client: [65] closed
+Jan 27 17:23 : client: [66] opened from 127.0.0.1:57360
+Jan 27 17:24 : client: [66] closed
+Jan 27 17:24 : client: [67] opened from 127.0.0.1:57362
+Jan 27 17:24 : client: [67] closed
+Jan 27 17:24 : client: [68] opened from 127.0.0.1:57364
+Jan 27 17:24 : client: [68] closed
+Jan 27 17:24 : client: [69] opened from 127.0.0.1:57366
+Jan 27 17:24 : client: [69] closed
+Jan 27 17:24 : client: [70] opened from 127.0.0.1:57368
+Jan 27 17:24 : client: [70] closed
+Jan 27 17:24 : client: [71] opened from 127.0.0.1:57370
+Jan 27 17:24 : client: [71] closed
+Jan 27 17:24 : client: [72] opened from 127.0.0.1:57372
+Jan 27 17:24 : client: [72] closed
+Jan 27 17:24 : client: [73] opened from 127.0.0.1:57376
+Jan 27 17:24 : client: [73] closed
+Jan 27 17:25 : client: [74] opened from 127.0.0.1:57378
+Jan 27 17:25 : client: [74] closed
+Jan 27 17:25 : client: [75] opened from 127.0.0.1:57380
+Jan 27 17:25 : client: [75] closed
+Jan 27 17:25 : client: [76] opened from 127.0.0.1:57382
+Jan 27 17:25 : client: [76] closed
+Jan 27 17:25 : client: [77] opened from 127.0.0.1:57384
+Jan 27 17:25 : client: [77] closed
+Jan 27 17:25 : client: [78] opened from 127.0.0.1:57386
+Jan 27 17:25 : client: [78] closed
+Jan 27 17:25 : client: [79] opened from 127.0.0.1:57388
+Jan 27 17:25 : client: [79] closed
+Jan 27 17:25 : client: [80] opened from 127.0.0.1:57390
+Jan 27 17:25 : client: [80] closed
+Jan 27 17:25 : client: [81] opened from 127.0.0.1:57392
+Jan 27 17:25 : client: [81] closed
+Jan 27 17:25 : client: [82] opened from 127.0.0.1:57394
+Jan 27 17:25 : client: [82] closed
+Jan 27 17:25 : client: [83] opened from 127.0.0.1:57396
+Jan 27 17:26 : client: [83] closed
+Jan 27 17:26 : client: [84] opened from 127.0.0.1:57398
+Jan 27 17:26 : client: [84] closed
+Jan 27 17:26 : client: [85] opened from 127.0.0.1:57400
+Jan 27 17:26 : client: [85] closed
+Jan 27 17:26 : client: [86] opened from 127.0.0.1:57402
+Jan 27 17:26 : client: [86] closed
+Jan 27 17:26 : client: [87] opened from 127.0.0.1:57404
+Jan 27 17:26 : client: [87] closed
+Jan 27 17:26 : client: [88] opened from 127.0.0.1:57406
+Jan 27 17:26 : client: [88] closed
+Jan 27 17:26 : client: [89] opened from 127.0.0.1:57408
+Jan 27 17:27 : client: [89] closed
+Jan 27 17:27 : client: [90] opened from 127.0.0.1:57410
+Jan 27 17:27 : client: [90] closed
+Jan 27 17:27 : client: [91] opened from 127.0.0.1:57412
+Jan 27 17:27 : client: [91] closed
+Jan 27 17:27 : client: [92] opened from 127.0.0.1:57414
+Jan 27 17:27 : client: [92] closed
+Jan 27 17:27 : client: [93] opened from 127.0.0.1:57416
+Jan 27 17:28 : client: [93] closed
+Jan 27 17:28 : client: [94] opened from 127.0.0.1:57418
+Jan 27 17:28 : client: [94] closed
+Jan 27 17:28 : client: [95] opened from 127.0.0.1:57422
+Jan 27 17:29 : client: [95] closed
+Jan 27 17:29 : client: [96] opened from 127.0.0.1:57424
+Jan 27 17:29 : client: [96] closed
+Jan 27 17:29 : client: [97] opened from 127.0.0.1:57426
+Jan 27 17:30 : client: [97] closed
+Jan 27 17:30 : client: [98] opened from 127.0.0.1:57428
+Jan 27 17:30 : client: [98] closed
+Jan 27 17:30 : client: [99] opened from 127.0.0.1:57430
+Jan 27 17:30 : client: [99] closed
+Jan 27 17:30 : client: [100] opened from 127.0.0.1:57432
+Jan 27 17:30 : client: [100] closed
+Jan 27 17:30 : client: [101] opened from 127.0.0.1:57434
+Jan 27 17:30 : client: [101] closed
+Jan 27 17:30 : client: [102] opened from 127.0.0.1:57436
+Jan 27 17:30 : client: [102] closed
+Jan 27 17:31 : client: [103] opened from 127.0.0.1:57438
+Jan 27 17:31 : client: [103] closed
+Jan 27 17:31 : client: [104] opened from 127.0.0.1:57440
+Jan 27 17:32 : client: [104] closed
+Jan 27 17:32 : client: [105] opened from 127.0.0.1:57444
+Jan 27 17:32 : client: [105] closed
+Jan 27 17:32 : client: [106] opened from 127.0.0.1:57446
+Jan 27 17:32 : client: [106] closed
+Jan 27 17:32 : client: [107] opened from 127.0.0.1:57448
+Jan 27 17:32 : client: [107] closed
+Jan 27 17:32 : client: [108] opened from 127.0.0.1:57450
+Jan 27 17:33 : client: [108] closed
+Jan 27 17:33 : client: [109] opened from 127.0.0.1:57452
+Jan 27 17:33 : client: [109] closed
+Jan 27 17:33 : client: [110] opened from 127.0.0.1:57454
+Jan 27 17:33 : client: [110] closed
+Jan 27 17:33 : client: [111] opened from 127.0.0.1:57456
+Jan 27 17:33 : client: [111] closed
+Jan 27 17:33 : client: [112] opened from 127.0.0.1:57458
+Jan 27 17:34 : client: [112] closed
+Jan 27 17:34 : client: [113] opened from 127.0.0.1:57460
+Jan 27 17:34 : client: [113] closed
+Jan 27 17:34 : client: [114] opened from 127.0.0.1:57462

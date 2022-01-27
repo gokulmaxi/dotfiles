@@ -100,8 +100,7 @@ source /home/gokul/.local/bin/ros-fun
 # alias ohmyzsh="mate ~/.oh-my-zsh
 alias nt="cd /media/data/notes"
 alias spotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
-source /opt/ros/noetic/setup.zsh
-source ~/ros-master.sh
+# source ~/ros-master.sh
 export ROSCONSOLE_FORMAT='${node}:${message}'
 # cd projects/ros/flipkart-challenge/
 # sws
