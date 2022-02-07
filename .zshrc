@@ -99,6 +99,7 @@ source /home/gokul/.local/bin/ros-fun
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh
 alias nt="cd /media/data/notes"
+alias book="zathura $(find *.pdf /home/gokul/Documents/books | fzf)"
 alias spotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 # source ~/ros-master.sh
 export ROSCONSOLE_FORMAT='${node}:${message}'
@@ -106,3 +107,9 @@ export ROSCONSOLE_FORMAT='${node}:${message}'
 # sws
 # alias COD="roslaunch flipbot2_base collision_detector.launch"
 # alias FR2="roslaunch flipbot2_base flipkart_round2.launch"
+
+PATH="/home/gokul/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/gokul/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/gokul/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/gokul/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/gokul/perl5"; export PERL_MM_OPT;

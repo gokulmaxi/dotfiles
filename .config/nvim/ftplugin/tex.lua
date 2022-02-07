@@ -19,9 +19,18 @@ function! AddItem()
     return ""
   endif
 endfunction
+function! AddColumn()
+  let [end_lnum, end_col] = searchpairpos('\\begin{', '', '\\end{', 'nW')
+  if match(getline(end_lnum), '\(tablar\)') != -1
+    return "\\item "
+  else
+    return ""
+  endif
+endfunction
 ]]
 
 vim.cmd[[
+cmap TAB !vilatac<CR><C-j>
 inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
 nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
 noremap <expr><buffer> o "o".AddItem()

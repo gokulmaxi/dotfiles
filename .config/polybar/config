@@ -61,7 +61,7 @@ font-2 = FontAwesome:pixelsize=12;0
 
 modules-left = dwm
 modules-center = mpd
-modules-right = pulseaudio memory cpu wlan eth battery temperature date 
+modules-right = xbacklight pulseaudio memory cpu wlan eth battery temperature date 
 
 ; modules-right = xbacklight pulseaudio memory cpu wlan eth battery temperature date powermenu
 tray-position = right

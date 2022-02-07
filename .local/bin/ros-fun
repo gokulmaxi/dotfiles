@@ -4,6 +4,7 @@
 ###################################################################
 alias sr='source /opt/ros/noetic/setup.zsh'
 alias sr2='source /opt/ros/foxy/setup.zsh'
+alias ros2_cr='ros2 pkg create --build-type ament_cmake'
 # Add your main repo to your path. Only the last sourcing matters, it will
 # overwrite all previous ones
 # sourceros

@@ -22,7 +22,7 @@ require'clipboard-image'.setup {
         vim.fn.feedkeys("diw")
         return cword      end,
     affix = [[
-\begin{figure}[htpb]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{%s}
     \caption{}
