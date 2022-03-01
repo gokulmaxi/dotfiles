@@ -3773,3 +3773,655 @@ Feb 07 11:10 : exception: RTIOThread could not get realtime scheduling, continui
 Feb 07 11:10 : client: [0] opened from [::1]:48816
 Feb 07 11:10 : client: [1] opened from [::1]:48818
 Feb 07 11:10 : client: [2] opened from 127.0.0.1:60660
+Feb 07 18:14 : client: [2] closed
+Feb 07 18:14 : client: [3] opened from 127.0.0.1:60662
+Feb 07 18:14 : client: [3] closed
+Feb 07 18:14 : client: [0] closed
+Feb 07 18:56 : zeroconf: No global port, disabling zeroconf
+Feb 07 18:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 18:56 : client: [0] opened from [::1]:50110
+Feb 07 18:56 : client: [1] opened from 127.0.0.1:38046
+Feb 07 18:56 : client: [2] opened from [::1]:50112
+Feb 07 18:59 : client: [1] closed
+Feb 07 18:59 : client: [2] closed
+Feb 07 18:59 : client: [0] closed
+Feb 08 09:02 : zeroconf: No global port, disabling zeroconf
+Feb 08 09:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 09:02 : client: [0] opened from [::1]:59438
+Feb 08 09:02 : client: [1] opened from 127.0.0.1:50198
+Feb 08 09:02 : client: [2] opened from [::1]:59440
+Feb 08 09:02 : client: [1] closed
+Feb 08 09:02 : client: [3] opened from 127.0.0.1:50200
+Feb 08 09:02 : client: [3] closed
+Feb 08 09:02 : client: [2] closed
+Feb 08 09:03 : zeroconf: No global port, disabling zeroconf
+Feb 08 09:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 09:04 : client: [0] opened from [::1]:58348
+Feb 08 09:04 : client: [1] opened from [::1]:58350
+Feb 08 09:04 : client: [2] opened from 127.0.0.1:49020
+Feb 08 09:05 : client: [2] closed
+Feb 08 09:05 : client: [3] opened from 127.0.0.1:49022
+Feb 08 09:05 : client: [3] closed
+Feb 08 09:05 : client: [4] opened from 127.0.0.1:49024
+Feb 08 09:09 : client: [4] closed
+Feb 08 09:09 : client: [5] opened from 127.0.0.1:49026
+Feb 08 09:12 : client: [5] closed
+Feb 08 09:12 : client: [6] opened from [::1]:58352
+Feb 08 09:12 : client: [0] command "close" during idle
+Feb 08 09:12 : client: [0] closed
+Feb 08 09:13 : client: [6] closed
+Feb 08 09:14 : client: [1] closed
+Feb 08 09:15 : zeroconf: No global port, disabling zeroconf
+Feb 08 09:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 09:15 : client: [0] opened from [::1]:56064
+Feb 08 09:15 : client: [1] opened from [::1]:56066
+Feb 08 09:15 : client: [2] opened from [::1]:56068
+Feb 08 09:15 : client: [0] command "close" during idle
+Feb 08 09:15 : client: [0] closed
+Feb 08 09:15 : client: [2] closed
+Feb 08 09:16 : client: [1] closed
+Feb 08 09:17 : zeroconf: No global port, disabling zeroconf
+Feb 08 09:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 09:17 : client: [0] opened from [::1]:57876
+Feb 08 09:17 : client: [1] opened from [::1]:57878
+Feb 08 09:17 : client: [2] opened from 127.0.0.1:60064
+Feb 08 09:18 : client: [2] closed
+Feb 08 09:18 : client: [3] opened from 127.0.0.1:60066
+Feb 08 09:18 : client: [3] closed
+Feb 08 09:18 : client: [4] opened from 127.0.0.1:60068
+Feb 08 09:31 : client: [4] closed
+Feb 08 09:31 : client: [5] opened from 127.0.0.1:60070
+Feb 08 09:31 : client: [5] closed
+Feb 08 09:31 : client: [6] opened from 127.0.0.1:60072
+Feb 08 13:46 : client: [6] closed
+Feb 08 13:46 : client: [1] closed
+Feb 08 13:46 : client: [0] closed
+Feb 08 13:47 : zeroconf: No global port, disabling zeroconf
+Feb 08 13:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 13:47 : client: [0] opened from [::1]:41396
+Feb 08 13:47 : client: [1] opened from [::1]:41398
+Feb 08 13:47 : client: [2] opened from 127.0.0.1:50822
+Feb 08 15:37 : client: [2] closed
+Feb 08 15:37 : client: [1] closed
+Feb 09 00:19 : zeroconf: No global port, disabling zeroconf
+Feb 09 00:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 00:19 : client: [0] opened from [::1]:48340
+Feb 09 00:19 : client: [1] opened from [::1]:48342
+Feb 09 00:19 : client: [2] opened from 127.0.0.1:56366
+Feb 08 18:49 : client: [2] closed
+Feb 08 18:49 : client: [3] opened from 127.0.0.1:56368
+Feb 08 21:43 : client: [3] closed
+Feb 08 21:43 : client: [1] closed
+Feb 09 11:28 : zeroconf: No global port, disabling zeroconf
+Feb 09 11:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 11:28 : client: [0] opened from [::1]:39218
+Feb 09 11:28 : client: [1] opened from [::1]:39220
+Feb 09 11:28 : client: [2] opened from 127.0.0.1:54854
+Feb 09 18:41 : client: [2] closed
+Feb 09 18:41 : client: [1] closed
+Feb 10 02:58 : zeroconf: No global port, disabling zeroconf
+Feb 10 02:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 02:58 : client: [0] opened from [::1]:56054
+Feb 10 02:58 : client: [1] opened from 127.0.0.1:35024
+Feb 10 02:58 : client: [2] opened from [::1]:56056
+Feb 09 21:29 : client: [1] closed
+Feb 10 08:04 : zeroconf: No global port, disabling zeroconf
+Feb 10 08:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 08:04 : client: [0] opened from [::1]:48086
+Feb 10 08:04 : client: [1] opened from 127.0.0.1:38888
+Feb 10 08:04 : client: [2] opened from [::1]:48090
+Feb 10 10:33 : client: [1] closed
+Feb 10 10:33 : client: [3] opened from 127.0.0.1:38894
+Feb 10 10:33 : client: [3] closed
+Feb 10 10:33 : client: [4] opened from 127.0.0.1:38896
+Feb 10 10:33 : client: [4] closed
+Feb 10 10:33 : client: [5] opened from 127.0.0.1:38898
+Feb 10 10:33 : client: [5] closed
+Feb 10 10:33 : client: [6] opened from 127.0.0.1:38900
+Feb 10 10:33 : client: [6] closed
+Feb 10 10:33 : client: [7] opened from 127.0.0.1:38902
+Feb 10 10:33 : client: [7] closed
+Feb 10 10:33 : client: [8] opened from 127.0.0.1:38904
+Feb 10 10:34 : client: [8] closed
+Feb 10 10:34 : client: [9] opened from 127.0.0.1:38906
+Feb 10 10:34 : client: [9] closed
+Feb 10 13:09 : client: [2] closed
+Feb 10 13:09 : client: [0] closed
+Feb 11 11:42 : zeroconf: No global port, disabling zeroconf
+Feb 11 11:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 11:42 : client: [0] opened from [::1]:39834
+Feb 11 11:42 : client: [1] opened from [::1]:39836
+Feb 11 12:31 : client: [1] closed
+Feb 11 20:28 : zeroconf: No global port, disabling zeroconf
+Feb 11 20:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 20:28 : client: [0] opened from [::1]:49672
+Feb 11 20:28 : client: [1] opened from [::1]:49676
+Feb 11 20:29 : client: [1] closed
+Feb 12 07:25 : zeroconf: No global port, disabling zeroconf
+Feb 12 07:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 07:25 : client: [0] opened from [::1]:33996
+Feb 12 07:25 : client: [1] opened from [::1]:33998
+Feb 12 07:33 : client: [1] closed
+Feb 12 09:44 : zeroconf: No global port, disabling zeroconf
+Feb 12 09:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 09:44 : client: [0] opened from [::1]:46088
+Feb 12 09:44 : client: [1] opened from [::1]:46090
+Feb 12 11:44 : zeroconf: No global port, disabling zeroconf
+Feb 12 11:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 11:44 : client: [0] opened from [::1]:47516
+Feb 12 11:44 : client: [1] opened from [::1]:47520
+Feb 12 14:18 : client: [1] closed
+Feb 12 14:32 : zeroconf: No global port, disabling zeroconf
+Feb 12 14:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 14:32 : client: [0] opened from [::1]:55018
+Feb 12 14:32 : client: [1] opened from [::1]:55020
+Feb 12 16:05 : client: [1] closed
+Feb 12 16:14 : zeroconf: No global port, disabling zeroconf
+Feb 12 16:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 16:14 : client: [0] opened from [::1]:49006
+Feb 12 16:14 : client: [1] opened from [::1]:49008
+Feb 12 16:15 : client: [2] opened from [::1]:49010
+Feb 12 16:15 : client: [0] command "close" during idle
+Feb 12 16:15 : client: [0] closed
+Feb 12 17:47 : client: [2] closed
+Feb 12 17:47 : client: [1] closed
+Feb 12 19:45 : zeroconf: No global port, disabling zeroconf
+Feb 12 19:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 19:45 : client: [0] opened from [::1]:36258
+Feb 12 19:45 : client: [1] opened from [::1]:36260
+Feb 12 19:45 : client: [0] command "close" during idle
+Feb 12 19:45 : client: [0] closed
+Feb 12 19:45 : client: [2] opened from [::1]:36264
+Feb 12 19:45 : client: [1] closed
+Feb 12 19:47 : zeroconf: No global port, disabling zeroconf
+Feb 12 19:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 19:47 : client: [0] opened from [::1]:36266
+Feb 12 21:12 : zeroconf: No global port, disabling zeroconf
+Feb 12 21:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 21:12 : client: [0] opened from [::1]:44458
+Feb 12 21:12 : client: [1] opened from [::1]:44460
+Feb 13 09:06 : zeroconf: No global port, disabling zeroconf
+Feb 13 09:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 09:06 : client: [0] opened from [::1]:44930
+Feb 13 09:06 : client: [1] opened from [::1]:44934
+Feb 13 09:06 : client: [1] closed
+Feb 13 09:45 : zeroconf: No global port, disabling zeroconf
+Feb 13 09:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 09:45 : client: [0] opened from [::1]:42000
+Feb 13 09:45 : client: [1] opened from [::1]:42004
+Feb 13 11:12 : client: [2] opened from [::1]:42008
+Feb 13 11:12 : client: [0] command "close" during idle
+Feb 13 11:12 : client: [0] closed
+Feb 13 11:37 : client: [2] closed
+Feb 13 11:37 : client: [1] closed
+Feb 13 17:14 : zeroconf: No global port, disabling zeroconf
+Feb 13 17:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 17:14 : client: [0] opened from [::1]:55216
+Feb 13 17:14 : client: [1] opened from [::1]:55218
+Feb 13 17:14 : client: [2] opened from [::1]:55220
+Feb 13 17:14 : client: [0] command "close" during idle
+Feb 13 17:14 : client: [0] closed
+Feb 13 11:44 : client: [2] closed
+Feb 13 17:09 : zeroconf: No global port, disabling zeroconf
+Feb 13 17:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 17:09 : client: [0] opened from [::1]:53296
+Feb 13 17:09 : client: [1] opened from [::1]:53298
+Feb 13 17:09 : client: [2] opened from [::1]:53300
+Feb 13 17:09 : client: [0] command "close" during idle
+Feb 13 17:09 : client: [0] closed
+Feb 13 17:09 : client: [1] closed
+Feb 13 17:12 : client: [2] closed
+Feb 13 17:12 : client: [3] opened from [::1]:53302
+Feb 13 17:13 : client: [3] closed
+Feb 13 17:30 : client: [4] opened from [::1]:53306
+Feb 13 17:30 : client: [4] closed
+Feb 13 17:39 : client: [5] opened from [::1]:53308
+Feb 13 17:40 : client: [5] closed
+Feb 13 17:42 : zeroconf: No global port, disabling zeroconf
+Feb 13 17:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 17:42 : client: [0] opened from [::1]:53408
+Feb 13 17:42 : client: [1] opened from [::1]:53410
+Feb 13 17:43 : client: [1] closed
+Feb 13 17:45 : zeroconf: No global port, disabling zeroconf
+Feb 13 17:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 17:45 : client: [0] opened from [::1]:60600
+Feb 13 17:45 : client: [1] opened from [::1]:60604
+Feb 13 17:45 : client: [1] closed
+Feb 13 17:47 : client: [2] opened from [::1]:60606
+Feb 13 17:47 : zeroconf: No global port, disabling zeroconf
+Feb 13 17:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 17:47 : client: [0] opened from [::1]:60608
+Feb 13 17:48 : client: [1] opened from [::1]:60610
+Feb 13 17:48 : client: [0] command "close" during idle
+Feb 13 17:48 : client: [0] closed
+Feb 13 17:53 : client: [1] closed
+Feb 13 17:53 : client: [2] opened from [::1]:60614
+Feb 13 17:54 : zeroconf: No global port, disabling zeroconf
+Feb 13 17:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 17:54 : client: [0] opened from [::1]:60616
+Feb 13 17:54 : client: [1] opened from [::1]:60618
+Feb 13 17:54 : client: [0] command "close" during idle
+Feb 13 17:54 : client: [0] closed
+Feb 13 17:54 : client: [1] closed
+Feb 13 18:19 : zeroconf: No global port, disabling zeroconf
+Feb 13 18:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 18:19 : client: [0] opened from [::1]:59474
+Feb 13 18:19 : client: [1] opened from [::1]:59476
+Feb 13 18:19 : client: [2] opened from [::1]:59478
+Feb 13 18:19 : client: [0] command "close" during idle
+Feb 13 18:19 : client: [0] closed
+Feb 13 18:19 : client: [1] closed
+Feb 13 18:25 : client: [3] opened from [::1]:59480
+Feb 13 18:25 : client: [2] closed
+Feb 13 18:25 : client: [3] closed
+Feb 13 18:26 : zeroconf: No global port, disabling zeroconf
+Feb 13 18:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 18:26 : client: [0] opened from [::1]:48336
+Feb 13 18:26 : client: [1] opened from [::1]:48340
+Feb 13 18:26 : client: [2] opened from [::1]:48342
+Feb 13 18:26 : client: [0] command "close" during idle
+Feb 13 18:26 : client: [0] closed
+Feb 13 18:26 : client: [2] closed
+Feb 13 18:26 : client: [1] closed
+Feb 13 18:27 : client: [3] opened from [::1]:48346
+Feb 13 18:27 : client: [3] closed
+Feb 13 20:26 : zeroconf: No global port, disabling zeroconf
+Feb 13 20:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 20:26 : client: [0] opened from [::1]:39142
+Feb 13 20:26 : client: [1] opened from [::1]:39144
+Feb 13 20:26 : client: [1] closed
+Feb 13 20:58 : client: [2] opened from [::1]:39146
+Feb 13 20:58 : client: [0] closed
+Feb 13 21:11 : zeroconf: No global port, disabling zeroconf
+Feb 13 21:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 21:11 : client: [0] opened from [::1]:35900
+Feb 13 21:11 : client: [1] opened from [::1]:35904
+Feb 13 21:11 : client: [1] closed
+Feb 14 10:19 : zeroconf: No global port, disabling zeroconf
+Feb 14 10:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 10:19 : client: [0] opened from [::1]:51064
+Feb 14 10:19 : client: [1] opened from [::1]:51066
+Feb 14 10:19 : client: [1] closed
+Feb 14 14:53 : client: [2] opened from [::1]:51072
+Feb 14 14:54 : client: [2] closed
+Feb 14 15:23 : zeroconf: No global port, disabling zeroconf
+Feb 14 15:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 15:23 : client: [0] opened from 127.0.0.1:41404
+Feb 14 15:23 : client: [1] opened from 127.0.0.1:41406
+Feb 14 15:23 : client: [1] closed
+Feb 14 20:21 : zeroconf: No global port, disabling zeroconf
+Feb 14 20:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 20:21 : client: [0] opened from [::1]:41878
+Feb 14 20:21 : client: [1] opened from [::1]:41880
+Feb 14 20:21 : client: [1] closed
+Feb 15 09:15 : zeroconf: No global port, disabling zeroconf
+Feb 15 09:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 09:15 : client: [0] opened from [::1]:50368
+Feb 15 09:15 : client: [1] opened from [::1]:50370
+Feb 15 09:15 : client: [1] closed
+Feb 15 14:08 : client: [2] opened from [::1]:50372
+Feb 15 14:08 : zeroconf: No global port, disabling zeroconf
+Feb 15 14:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 14:08 : client: [0] opened from [::1]:50374
+Feb 15 14:08 : client: [1] opened from [::1]:50376
+Feb 15 14:08 : client: [0] command "close" during idle
+Feb 15 14:08 : client: [0] closed
+Feb 15 14:10 : client: [1] closed
+Feb 15 14:12 : zeroconf: No global port, disabling zeroconf
+Feb 15 14:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 14:12 : client: [0] opened from [::1]:38138
+Feb 15 14:12 : client: [1] opened from [::1]:38142
+Feb 15 14:12 : client: [1] closed
+Feb 15 14:32 : client: [2] opened from [::1]:38144
+Feb 15 14:32 : client: [2] closed
+Feb 15 14:33 : client: [3] opened from [::1]:38148
+Feb 15 14:33 : client: [4] opened from [::1]:38152
+Feb 15 14:33 : client: [0] command "close" during idle
+Feb 15 14:33 : client: [0] closed
+Feb 15 14:33 : client: [3] closed
+Feb 15 16:53 : client: [4] closed
+Feb 15 17:17 : zeroconf: No global port, disabling zeroconf
+Feb 15 17:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 17:17 : client: [0] opened from 127.0.0.1:46822
+Feb 15 17:17 : client: [1] opened from 127.0.0.1:46824
+Feb 15 17:17 : client: [2] opened from 127.0.0.1:46826
+Feb 15 17:17 : client: [0] command "close" during idle
+Feb 15 17:17 : client: [0] closed
+Feb 15 17:17 : client: [1] closed
+Feb 15 17:17 : client: [2] closed
+Feb 15 17:17 : client: [3] opened from 127.0.0.1:46828
+Feb 15 17:17 : client: [3] closed
+Feb 15 21:03 : zeroconf: No global port, disabling zeroconf
+Feb 15 21:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 21:03 : client: [0] opened from [::1]:58200
+Feb 15 21:03 : client: [1] opened from [::1]:58204
+Feb 15 21:03 : client: [1] closed
+Feb 16 09:17 : zeroconf: No global port, disabling zeroconf
+Feb 16 09:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 09:17 : client: [0] opened from [::1]:41676
+Feb 16 09:17 : client: [1] opened from [::1]:41678
+Feb 16 09:17 : client: [1] closed
+Feb 16 13:57 : client: [2] opened from [::1]:41680
+Feb 16 13:58 : client: [2] closed
+Feb 16 19:04 : zeroconf: No global port, disabling zeroconf
+Feb 16 19:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 19:04 : client: [0] opened from [::1]:54266
+Feb 16 19:04 : client: [1] opened from [::1]:54268
+Feb 16 19:04 : client: [1] closed
+Feb 17 05:57 : zeroconf: No global port, disabling zeroconf
+Feb 17 05:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 05:57 : client: [0] opened from [::1]:49726
+Feb 17 05:57 : client: [1] opened from [::1]:49728
+Feb 17 05:57 : client: [1] closed
+Feb 17 09:00 : zeroconf: No global port, disabling zeroconf
+Feb 17 09:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 09:00 : client: [0] opened from [::1]:46266
+Feb 17 09:00 : client: [1] opened from [::1]:46270
+Feb 17 09:00 : client: [1] closed
+Feb 17 16:43 : zeroconf: No global port, disabling zeroconf
+Feb 17 16:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 16:43 : client: [0] opened from [::1]:52896
+Feb 17 16:43 : client: [1] opened from [::1]:52898
+Feb 17 16:43 : client: [1] closed
+Feb 17 17:52 : zeroconf: No global port, disabling zeroconf
+Feb 17 17:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 17:52 : client: [0] opened from [::1]:48430
+Feb 17 17:52 : client: [1] opened from [::1]:48432
+Feb 17 17:52 : client: [1] closed
+Feb 17 20:00 : zeroconf: No global port, disabling zeroconf
+Feb 17 20:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 20:00 : client: [0] opened from [::1]:53874
+Feb 17 20:00 : client: [1] opened from [::1]:53876
+Feb 17 20:00 : client: [1] closed
+Feb 18 09:04 : zeroconf: No global port, disabling zeroconf
+Feb 18 09:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 18 09:04 : client: [0] opened from [::1]:34896
+Feb 18 09:04 : client: [1] opened from [::1]:34898
+Feb 18 09:05 : client: [1] closed
+Feb 18 09:06 : client: [2] opened from [::1]:34900
+Feb 18 09:06 : client: [3] opened from [::1]:34902
+Feb 18 09:06 : client: [0] command "close" during idle
+Feb 18 09:06 : client: [0] closed
+Feb 18 09:07 : client: [2] closed
+Feb 18 09:09 : client: [3] closed
+Feb 18 09:09 : client: [4] opened from [::1]:34904
+Feb 18 09:09 : client: [5] opened from [::1]:34906
+Feb 18 09:09 : client: [4] closed
+Feb 18 09:09 : client: [5] closed
+Feb 18 09:10 : zeroconf: No global port, disabling zeroconf
+Feb 18 09:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 18 09:10 : client: [0] opened from [::1]:59046
+Feb 18 09:10 : client: [1] opened from [::1]:59048
+Feb 18 09:10 : client: [1] closed
+Feb 18 14:03 : client: [2] opened from [::1]:59066
+Feb 18 14:03 : client: [2] closed
+Feb 19 09:52 : zeroconf: No global port, disabling zeroconf
+Feb 19 09:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 19 09:52 : client: [0] opened from [::1]:38894
+Feb 19 09:52 : client: [1] opened from [::1]:38896
+Feb 19 09:52 : client: [1] closed
+Feb 19 16:56 : zeroconf: No global port, disabling zeroconf
+Feb 19 16:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 19 16:56 : client: [0] opened from [::1]:57424
+Feb 19 16:56 : client: [1] opened from [::1]:57426
+Feb 19 16:56 : client: [1] closed
+Feb 19 20:09 : zeroconf: No global port, disabling zeroconf
+Feb 19 20:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 19 20:09 : client: [0] opened from [::1]:33416
+Feb 19 20:09 : client: [1] opened from [::1]:33418
+Feb 19 20:09 : client: [1] closed
+Feb 20 09:35 : zeroconf: No global port, disabling zeroconf
+Feb 20 09:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 20 09:35 : client: [0] opened from [::1]:47106
+Feb 20 09:35 : client: [1] opened from [::1]:47108
+Feb 20 09:35 : client: [1] closed
+Feb 20 10:54 : zeroconf: No global port, disabling zeroconf
+Feb 20 10:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 20 10:54 : client: [0] opened from [::1]:55346
+Feb 20 10:54 : client: [1] opened from [::1]:55350
+Feb 20 10:54 : client: [1] closed
+Feb 20 22:50 : zeroconf: No global port, disabling zeroconf
+Feb 20 22:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 20 22:50 : client: [0] opened from [::1]:59558
+Feb 20 22:50 : client: [1] opened from [::1]:59560
+Feb 20 22:50 : client: [1] closed
+Feb 21 14:39 : zeroconf: No global port, disabling zeroconf
+Feb 21 14:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 14:39 : client: [0] opened from [::1]:50852
+Feb 21 14:39 : client: [1] opened from [::1]:50854
+Feb 21 14:39 : client: [1] closed
+Feb 21 11:29 : zeroconf: No global port, disabling zeroconf
+Feb 21 11:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 11:29 : client: [0] opened from [::1]:40264
+Feb 21 11:29 : client: [1] opened from [::1]:40268
+Feb 21 11:29 : client: [1] closed
+Feb 21 15:31 : zeroconf: No global port, disabling zeroconf
+Feb 21 15:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 15:31 : client: [0] opened from [::1]:55476
+Feb 21 15:31 : client: [1] opened from [::1]:55478
+Feb 21 15:31 : client: [1] closed
+Feb 21 20:54 : zeroconf: No global port, disabling zeroconf
+Feb 21 20:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 20:54 : client: [0] opened from [::1]:47326
+Feb 21 20:54 : client: [1] opened from [::1]:47328
+Feb 21 20:54 : client: [1] closed
+Feb 22 09:20 : zeroconf: No global port, disabling zeroconf
+Feb 22 09:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 09:20 : client: [0] opened from [::1]:52456
+Feb 22 09:20 : client: [1] opened from [::1]:52458
+Feb 22 09:20 : client: [1] closed
+Feb 22 09:22 : client: [2] opened from [::1]:52460
+Feb 22 09:22 : zeroconf: No global port, disabling zeroconf
+Feb 22 09:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 09:22 : client: [0] opened from [::1]:52462
+Feb 22 09:22 : client: [1] opened from [::1]:52464
+Feb 22 09:22 : client: [0] command "close" during idle
+Feb 22 09:22 : client: [0] closed
+Feb 22 09:26 : client: [1] closed
+Feb 22 09:27 : zeroconf: No global port, disabling zeroconf
+Feb 22 09:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 09:27 : client: [0] opened from [::1]:49596
+Feb 22 09:27 : client: [1] opened from [::1]:49598
+Feb 22 09:27 : client: [0] command "close" during idle
+Feb 22 09:27 : client: [0] closed
+Feb 22 09:27 : client: [2] opened from [::1]:49600
+Feb 22 09:27 : client: [2] closed
+Feb 22 09:30 : client: [1] closed
+Feb 22 09:32 : zeroconf: No global port, disabling zeroconf
+Feb 22 09:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 09:32 : client: [0] opened from [::1]:43822
+Feb 22 09:32 : client: [1] opened from [::1]:43824
+Feb 22 09:32 : client: [0] command "close" during idle
+Feb 22 09:32 : client: [0] closed
+Feb 22 09:32 : client: [2] opened from [::1]:43826
+Feb 22 09:32 : client: [2] closed
+Feb 22 09:33 : client: [3] opened from [::1]:43828
+Feb 22 09:33 : client: [3] closed
+Feb 22 09:33 : client: [1] closed
+Feb 22 09:35 : zeroconf: No global port, disabling zeroconf
+Feb 22 09:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 09:35 : client: [0] opened from [::1]:50582
+Feb 22 09:35 : client: [1] opened from [::1]:50584
+Feb 22 09:35 : client: [1] closed
+Feb 22 20:09 : zeroconf: No global port, disabling zeroconf
+Feb 22 20:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 20:09 : client: [0] opened from [::1]:37220
+Feb 22 20:09 : client: [1] opened from [::1]:37222
+Feb 22 20:10 : client: [1] closed
+Feb 22 20:29 : client: [2] opened from [::1]:37224
+Feb 22 20:29 : client: [3] opened from [::1]:37226
+Feb 22 20:29 : client: [0] command "close" during idle
+Feb 22 20:29 : client: [0] closed
+Feb 22 20:29 : client: [2] closed
+Feb 22 20:37 : zeroconf: No global port, disabling zeroconf
+Feb 22 20:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 20:37 : client: [0] opened from [::1]:56634
+Feb 22 20:37 : client: [1] opened from [::1]:56636
+Feb 22 20:37 : client: [2] opened from [::1]:56638
+Feb 22 20:37 : client: [0] command "close" during idle
+Feb 22 20:37 : client: [0] closed
+Feb 22 20:37 : client: [1] closed
+Feb 22 20:40 : client: [2] closed
+Feb 22 20:41 : zeroconf: No global port, disabling zeroconf
+Feb 22 20:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 20:41 : client: [0] opened from [::1]:38602
+Feb 22 20:41 : client: [1] opened from [::1]:38604
+Feb 22 20:41 : client: [2] opened from [::1]:38606
+Feb 22 20:41 : client: [0] command "close" during idle
+Feb 22 20:41 : client: [0] closed
+Feb 22 20:41 : client: [1] closed
+Feb 22 20:41 : client: [2] closed
+Feb 22 20:42 : zeroconf: No global port, disabling zeroconf
+Feb 22 20:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 22 20:42 : client: [0] opened from [::1]:54818
+Feb 22 20:42 : client: [1] opened from [::1]:54820
+Feb 22 20:42 : client: [1] closed
+Feb 23 09:14 : zeroconf: No global port, disabling zeroconf
+Feb 23 09:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 23 09:14 : client: [0] opened from [::1]:56452
+Feb 23 09:14 : client: [1] opened from [::1]:56454
+Feb 23 09:14 : client: [1] closed
+Feb 23 12:25 : zeroconf: No global port, disabling zeroconf
+Feb 23 12:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 23 12:25 : client: [0] opened from [::1]:54182
+Feb 23 12:25 : client: [1] opened from [::1]:54184
+Feb 23 12:25 : client: [1] closed
+Feb 23 16:15 : zeroconf: No global port, disabling zeroconf
+Feb 23 16:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 23 16:15 : client: [0] opened from [::1]:33020
+Feb 23 16:15 : client: [1] opened from [::1]:33022
+Feb 23 16:15 : client: [1] closed
+Feb 24 09:27 : zeroconf: No global port, disabling zeroconf
+Feb 24 09:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 09:27 : client: [0] opened from [::1]:48398
+Feb 24 09:27 : client: [1] opened from [::1]:48402
+Feb 24 09:27 : client: [1] closed
+Feb 24 10:00 : zeroconf: No global port, disabling zeroconf
+Feb 24 10:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 10:00 : client: [0] opened from [::1]:35790
+Feb 24 10:00 : client: [1] opened from [::1]:35792
+Feb 24 10:00 : client: [0] command "close" during idle
+Feb 24 10:00 : client: [0] closed
+Feb 24 10:00 : client: [2] opened from [::1]:35794
+Feb 24 10:00 : client: [2] closed
+Feb 24 10:25 : client: [1] closed
+Feb 24 10:26 : zeroconf: No global port, disabling zeroconf
+Feb 24 10:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 10:26 : client: [0] opened from [::1]:57608
+Feb 24 10:26 : client: [1] opened from [::1]:57610
+Feb 24 10:26 : client: [2] opened from [::1]:57612
+Feb 24 10:26 : client: [0] command "close" during idle
+Feb 24 10:26 : client: [0] closed
+Feb 24 10:26 : client: [1] closed
+Feb 24 10:43 : client: [2] closed
+Feb 24 10:45 : client: [3] opened from [::1]:57614
+Feb 24 10:49 : zeroconf: No global port, disabling zeroconf
+Feb 24 10:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 10:49 : client: [0] opened from [::1]:57616
+Feb 24 10:49 : client: [1] opened from [::1]:57620
+Feb 24 10:49 : client: [0] command "close" during idle
+Feb 24 10:49 : client: [0] closed
+Feb 24 10:50 : zeroconf: No global port, disabling zeroconf
+Feb 24 10:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 10:50 : client: [0] opened from [::1]:51568
+Feb 24 10:50 : client: [1] opened from [::1]:51570
+Feb 24 10:50 : client: [1] closed
+Feb 24 20:36 : zeroconf: No global port, disabling zeroconf
+Feb 24 20:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 20:36 : client: [0] opened from [::1]:39454
+Feb 24 20:36 : client: [1] opened from [::1]:39456
+Feb 24 20:36 : client: [1] closed
+Feb 24 21:14 : client: [2] opened from [::1]:39462
+Feb 24 21:14 : client: [2] closed
+Feb 24 21:14 : client: [3] opened from [::1]:39464
+Feb 24 21:14 : client: [3] closed
+Feb 25 09:12 : zeroconf: No global port, disabling zeroconf
+Feb 25 09:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 09:12 : client: [0] opened from [::1]:49850
+Feb 25 09:12 : client: [1] opened from [::1]:49852
+Feb 25 09:12 : client: [1] closed
+Feb 25 09:18 : client: [2] opened from [::1]:49854
+Feb 25 09:18 : client: [3] opened from [::1]:49856
+Feb 25 09:18 : client: [0] command "close" during idle
+Feb 25 09:18 : client: [0] closed
+Feb 25 09:18 : client: [2] closed
+Feb 25 16:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 16:52 : zeroconf: No global port, disabling zeroconf
+Feb 25 16:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 16:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 16:52 : client: [0] opened from [::1]:43190
+Feb 25 16:52 : client: [1] opened from [::1]:43192
+Feb 25 16:52 : client: [0] command "close" during idle
+Feb 25 16:52 : client: [0] closed
+Feb 25 16:52 : client: [2] opened from [::1]:43194
+Feb 25 16:52 : client: [3] opened from [::1]:43196
+Feb 25 16:52 : client: [1] command "close" during idle
+Feb 25 16:52 : client: [1] closed
+Feb 25 16:52 : client: [2] closed
+Feb 26 02:56 : client: [3] closed
+Feb 26 02:56 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 26 09:23 : zeroconf: No global port, disabling zeroconf
+Feb 26 09:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 09:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 09:23 : client: [0] opened from [::1]:38316
+Feb 26 09:23 : client: [1] opened from [::1]:38318
+Feb 26 09:23 : client: [2] opened from [::1]:38320
+Feb 26 09:23 : client: [0] command "close" during idle
+Feb 26 09:23 : client: [0] closed
+Feb 26 09:23 : client: [1] closed
+Feb 26 14:56 : client: [2] closed
+Feb 26 14:56 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 26 14:57 : zeroconf: No global port, disabling zeroconf
+Feb 26 14:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 14:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 14:57 : client: [0] opened from [::1]:32896
+Feb 26 14:57 : client: [1] opened from [::1]:32898
+Feb 26 14:58 : client: [1] closed
+Feb 27 12:07 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 27 12:14 : zeroconf: No global port, disabling zeroconf
+Feb 27 12:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 12:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 12:14 : client: [0] opened from [::1]:52292
+Feb 27 12:14 : client: [1] opened from [::1]:52296
+Feb 27 12:14 : client: [1] closed
+Feb 27 12:28 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 27 13:21 : zeroconf: No global port, disabling zeroconf
+Feb 27 13:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 13:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 13:21 : client: [0] opened from [::1]:53390
+Feb 27 13:21 : client: [1] opened from [::1]:53392
+Feb 27 13:21 : client: [1] closed
+Feb 27 15:38 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 27 20:52 : zeroconf: No global port, disabling zeroconf
+Feb 27 20:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 20:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 20:52 : client: [0] opened from 127.0.0.1:51324
+Feb 27 20:52 : client: [1] opened from 127.0.0.1:51326
+Feb 27 20:52 : client: [1] closed
+Feb 27 23:24 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 28 10:01 : zeroconf: No global port, disabling zeroconf
+Feb 28 10:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:01 : client: [0] opened from [::1]:42874
+Feb 28 10:01 : client: [1] opened from [::1]:42876
+Feb 28 10:01 : client: [1] closed
+Feb 28 17:09 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Feb 28 20:31 : zeroconf: No global port, disabling zeroconf
+Feb 28 20:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 20:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 20:31 : client: [0] opened from [::1]:37212
+Feb 28 20:31 : client: [1] opened from [::1]:37214
+Feb 28 20:31 : client: [1] closed
+Feb 28 23:17 : player: played "Anne-Marie - 2002 [Official Video].flac"
+Mar 01 09:17 : zeroconf: No global port, disabling zeroconf
+Mar 01 09:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 01 09:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 01 09:17 : client: [0] opened from [::1]:33722
+Mar 01 09:17 : client: [1] opened from [::1]:33724
+Mar 01 09:17 : client: [1] closed
+Mar 01 12:02 : zeroconf: No global port, disabling zeroconf
+Mar 01 12:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 01 12:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 01 12:02 : client: [0] opened from [::1]:58314
+Mar 01 12:02 : client: [1] opened from [::1]:58316
+Mar 01 12:03 : client: [1] closed
