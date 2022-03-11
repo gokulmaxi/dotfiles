@@ -15,7 +15,7 @@ function cPer.runCode()
         vim.cmd [[:!gcc %  -o %< && %< ]]
         end
         if (vim.bo.filetype == "cpp") then
-        vim.cmd [[:!g++ %  -o %< && %< ]]
+        vim.cmd [[:!g++ %  -o %< && ./%< ]]
         end
 end
 function cPer.pasteImg()

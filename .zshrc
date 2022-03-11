@@ -114,3 +114,23 @@ PERL_LOCAL_LIB_ROOT="/home/gokul/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_R
 PERL_MB_OPT="--install_base \"/home/gokul/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/gokul/perl5"; export PERL_MM_OPT;
 alias lugo="sudo"
+CP(){
+    export CURRENT_CPP=$(find *.c* | fzf )
+}
+run(){
+    if [[ -z "${CURRENT_CPP}" ]]; then
+        CP 
+    else
+        if [[ $CURRENT_CPP == *.c ]]       #  this is the snag
+            then
+                filename=$CURRENT_CPP
+                gcc $CURRENT_CPP -o "${filename%.c}" && ./"${filename%.c}"
+        fi
+
+        if [[ $CURRENT_CPP == *.cpp ]]       #  this is the snag
+            then
+                filename=$CURRENT_CPP
+                g++ $CURRENT_CPP -o "${filename%.cpp}" &&  ./"${filename%.cpp}"
+        fi
+    fi
+}
