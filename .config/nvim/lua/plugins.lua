@@ -117,6 +117,10 @@ return require('packer').startup(function()
 	'dvdsk/prosesitter'
 },
 
-  use('thibthib18/ros-nvim')
+  use('thibthib18/ros-nvim'),
+  use {
+    'glacambre/firenvim',
+    run = function() vim.fn['firenvim#install'](0) end 
+},
 }
 end)

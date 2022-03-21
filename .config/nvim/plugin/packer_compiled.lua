@@ -279,6 +279,11 @@ _G.packer_plugins = {
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
   },
+  prosesitter = {
+    loaded = true,
+    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/prosesitter",
+    url = "https://github.com/dvdsk/prosesitter"
+  },
   ["ros-nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/ros-nvim",
@@ -289,11 +294,6 @@ _G.packer_plugins = {
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tabular",
     url = "https://github.com/godlygeek/tabular"
   },
-  tagbar = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tagbar",
-    url = "https://github.com/preservim/tagbar"
-  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
@@ -303,11 +303,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gokul/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["tex-conceal.vim"] = {
-    loaded = true,
-    path = "/home/gokul/.local/share/nvim/site/pack/packer/start/tex-conceal.vim",
-    url = "https://github.com/KeitaNakamura/tex-conceal.vim"
   },
   ultisnips = {
     loaded = true,
