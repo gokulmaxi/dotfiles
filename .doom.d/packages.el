@@ -15,6 +15,8 @@
 ;(package! another-package
 ;  :recipe (:host github :repo "username/repo"))
 (package! key-chord)
+(package! fira-code-mode)
+(package! flutter)
   ; :recipe (:host github: "emacsorphanage/key-chord"))
 ;; If the package you are trying to install does not contain a PACKAGENAME.el
 ;; file, or is located in a subdirectory of the repo, you'll need to specify

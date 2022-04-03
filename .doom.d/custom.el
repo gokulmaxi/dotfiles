@@ -16,3 +16,8 @@
 (setq key-chord-two-keys-delay 0.5)
 (key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
 (key-chord-mode 1)
+(fira-code-mode-set-font)
+ ;;(set-frame-parameter (selected-frame) 'alpha '(<active> . <inactive>))
+ ;;(set-frame-parameter (selected-frame) 'alpha <both>)
+ (set-frame-parameter (selected-frame) 'alpha '(90 . 70))
+ (add-to-list 'default-frame-alist '(alpha . (90 . 50)))

@@ -69,7 +69,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker docker-compose ubuntu )
+plugins=(git docker docker-compose ubuntu flutter)
 
 source $ZSH/oh-my-zsh.sh
 source /home/gokul/.local/bin/ros-fun
@@ -101,7 +101,7 @@ source /home/gokul/.local/bin/ros-fun
 alias nt="cd /media/data/notes"
 book(){zathura $(find *.pdf /home/gokul/Documents/books | fzf)}
 alias spotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
-source ~/ros-master.sh
+# source ~/ros-master.sh
 export ROSCONSOLE_FORMAT='${node}:${message}'
 # cd projects/ros/flipkart-challenge/
 # sws
@@ -133,4 +133,32 @@ run(){
                 g++ $CURRENT_CPP -o "${filename%.cpp}" &&  ./"${filename%.cpp}"
         fi
     fi
+}
+export ANDROID_HOME=$HOME/android
+export ANDROID_SDK_ROOT=$HOME/android/
+export PATH=$ANDROID_HOME/cmdline-tools/tools/bin/:$PATH
+export PATH=$ANDROID_HOME/emulator/:$PATH
+export PATH=$ANDROID_HOME/platform-tools/:$PATH
+export PATH="$PATH:$HOME/dev/flutter/bin/"
+# convert xopp to pdfs automatically
+# Auto save PDF for Xournal++
+inotxournal (){
+    main_dir=/media/data/notes
+    # Wait for changes in ANY files inside directory
+    inotifywait -r -m --format '%w%f' -e CLOSE_WRITE "$main_dir" |
+        while read file_path; do
+            # Check file extension
+            if [[ "$file_path" =~ .*\.(xopp|xoj) ]]
+            then
+                # Convert to pdf (overwrite if already exists)
+                echo Converting file to pdf: ${file_path};
+                xournalpp "${file_path}" -p "${file_path%.*}.pdf";
+                echo Saving done.
+            fi
+        done
+}
+nte(){
+    file=$1
+    xournalpp $file &
+    echo $1| entr xournalpp $1 -p "${file%.*}.pdf"
 }
