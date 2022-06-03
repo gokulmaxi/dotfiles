@@ -6,7 +6,7 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "John Doe"
+(setq user-full-name "gokulakrishnan"
       user-mail-address "john@doe.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
@@ -75,3 +75,21 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+(use-package lsp-pyright
+  :ensure t
+  :hook (python-mode  . (lambda ()
+                          (require 'lsp-pyright)
+                          (lsp)))
+  :custom
+  ;; NOTE: Set these if Python 3 is called "python3" on your system!
+  ;; (python-shell-interpreter "python3")
+  ;; (dap-python-executable "python3")
+  (dap-python-debugger 'debugpy)
+  :config
+  (require 'dap-python))
+(setq dap-auto-configure-features '(sessions locals controls tooltip))
+
+(use-package evil-nerd-commenter
+  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
+(setq display-line-numbers 'relative)
+(add-to-list 'auto-mode-alist '("\\.launch\\'" . xml-mode))

@@ -162,3 +162,6 @@ nte(){
     xournalpp $file &
     echo $1| entr xournalpp $1 -p "${file%.*}.pdf"
 }
+export TURTLEBOT3_MODEL=burger
+zstyle ':completion:*:*:docker:*' option-stacking yes
+zstyle ':completion:*:*:docker-*:*' option-stacking yes
