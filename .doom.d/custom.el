@@ -69,3 +69,6 @@ To be used with `markdown-live-preview-window-function'."
       :desc "dap breakpoint condition"   "c" #'dap-breakpoint-condition
       :desc "dap breakpoint hit count"   "h" #'dap-breakpoint-hit-condition
       :desc "dap breakpoint log message" "l" #'dap-breakpoint-log-message)
+
+;; docker auto file name
+(put 'dockerfile-image-name 'safe-local-variable #'stringp)
