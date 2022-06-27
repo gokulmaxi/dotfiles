@@ -162,6 +162,10 @@ nte(){
     xournalpp $file &
     echo $1| entr xournalpp $1 -p "${file%.*}.pdf"
 }
+em(){
+    file=$1
+    (emacsclient27 -c ${file} &)
+}
 export TURTLEBOT3_MODEL=burger
 zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
