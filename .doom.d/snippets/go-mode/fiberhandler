@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# contributor: gokulakrishnan
+# name: fiberhandler
+# key:handler
+# --
+package $1
+
+import (
+	"github.com/gofiber/fiber/v2"
+)
+
+func Register(_route fiber.Router) {
+_route.$2
+}

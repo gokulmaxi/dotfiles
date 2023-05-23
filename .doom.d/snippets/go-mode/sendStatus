@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: gokulakrishnan
+# name: sendStatus
+# key: fss
+# --
+		return c.Send(utilities.MsgJson(utilities.$1))
