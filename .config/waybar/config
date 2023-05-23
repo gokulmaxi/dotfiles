@@ -1,0 +1,104 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar at the bottom of your screen
+    "height": 28, // Waybar height
+    "modules-left": ["wlr/workspaces"],
+    "modules-center": ["clock","custom/spotify"],
+    "modules-right": ["tray","network","pulseaudio", "battery"],
+    "wlr/workspaces": {
+        "format": "{icon}",
+        "format-active": " {icon} ",
+        "on-click": "activate"
+        // "format-icons":{
+        //   "10":"10"
+        // }
+    },    "hyprland/window": {
+        "format": "👉 {}",
+        "separate-outputs": true
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 8,
+        "show-passive-items": false
+    },
+    "clock": {
+        "format": "{: %I:%M %a %d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+"custom/spotify": {
+    "exec": "/usr/bin/python3 /home/gokul/.local/bin/way-play --player spotify",
+    "format": "{}  ",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+},
+
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%)  {bandwidthUpBits} {bandwidthDownBits}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },    "pulseaudio": {
+       "tooltip": "{volume}",
+       //"scroll-step": 1,
+       //"on-scroll-up": "~/.scripts/ChangeVolume up",
+       //"on-scroll-down": "~/.scripts/ChangeVolume down",
+        "on-click-right": "pavucontrol",
+       "on-click":"~/.scripts/ChangeVolume mute",
+       "format": "<span size='125%' rise='600'>{icon}</span>",
+       "format-source": "<span size='105%' rise='600'>{icon}</span> {volume}%",
+       "format-muted": "<span size='125%' rise='600'>󰖁</span>",
+       "format-icons": {
+            "headphone": "󰋌",
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+    },
+    "backlight": {
+    "device": "intel_backlight",
+    "format": "<span size='105%' rise='600'>{icon}</span>",
+    "format-icons": ["󰃞","󰃟", "󰃠"],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "on-click": "wlsunset"
+},
+"pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+}
