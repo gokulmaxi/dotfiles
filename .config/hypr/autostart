@@ -10,7 +10,7 @@ slack &
 $scripts/launch_waybar &
 
 # wallpaper set to cloud.png
-swww init && swww img $HOME/.images/3509034.png 
+swww init && swww img $HOME/.images/wall-gruv.png
 # effects
 #$scripts/rgb &
 
