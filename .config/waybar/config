@@ -3,16 +3,14 @@
     "position": "top", // Waybar at the bottom of your screen
     "height": 28, // Waybar height
     "modules-left": ["wlr/workspaces"],
-    "modules-center": ["clock","custom/spotify"],
-    "modules-right": ["tray","network","pulseaudio", "battery"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray","battery","pulseaudio",],
     "wlr/workspaces": {
         "format": "{icon}",
         "format-active": " {icon} ",
         "on-click": "activate"
-        // "format-icons":{
-        //   "10":"10"
-        // }
-    },    "hyprland/window": {
+    },
+    "hyprland/window": {
         "format": "👉 {}",
         "separate-outputs": true
     },
@@ -25,23 +23,19 @@
         "format": "{: %I:%M %a %d}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     },
-    "battery": {
-        "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
     },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    //"format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", "", "", ""],
+    "on-click": "kitty --class system_monitor -e btop"
+  },
 "custom/spotify": {
     "exec": "/usr/bin/python3 /home/gokul/.local/bin/way-play --player spotify",
     "format": "{}  ",
