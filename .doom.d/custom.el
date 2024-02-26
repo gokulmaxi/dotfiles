@@ -7,7 +7,7 @@
  '(custom-safe-themes
    '("c4063322b5011829f7fdd7509979b5823e8eea2abf1fe5572ec4b7af1dd78519" "3d47380bf5aa650e7b8e049e7ae54cdada54d0637e7bac39e4cc6afb44e8463b" "1d5e33500bc9548f800f9e248b57d1b2a9ecde79cb40c0b1398dec51ee820daf" default))
  '(package-selected-packages
-   '(elcord tide docker-compose-mode yasnippet-classic-snippets langdoc which-key try use-package))
+   '(flutter ripgrep react-snippets prettier elcord tide docker-compose-mode yasnippet-classic-snippets langdoc which-key try use-package))
  '(warning-suppress-types '((initialization) (defvaralias))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -97,10 +97,12 @@ root instead."
         (nth 0 variables-file))
        (t default-directory)))
      t nil '("*"))))
-(setq org-roam-directory "/media/data/notes/org")
+(setq org-roam-directory "/mnt/data/notes/org")
 (setenv "PATH"
         (concat
          "/home/gokul/go/bin" path-separator
          (getenv "PATH")))
-(require 'elcord)
-(elcord-mode)
+
+;; web config
+ (setq-hook! 'web-mode-hook +format-with 'prettier-prettify)
+(put 'projectile-ripgrep 'disabled nil)

@@ -16,7 +16,7 @@
 ;  :recipe (:host github :repo "username/repo"))
 (package! key-chord)
 (package! fira-code-mode)
-(package! flutter)
+(package! prettier)
 (package! dap-mode)
 (unpin! org-roam)
 (package! org-roam-ui)
@@ -56,3 +56,7 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+(package! dart-snippets
+    :recipe (:host github
+                   :repo "MYDavoodeh/dart-snippets"
+                   :files ("*.el" ("snippets" "snippets/*"))))

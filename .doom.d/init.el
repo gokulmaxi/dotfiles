@@ -22,7 +22,7 @@
        company           ; the ultimate code completion backend
        (helm +childframe +fuzzy +icons)              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
-       ;;ivy               ; a search engine for love and life
+      (ivy +childframe +fuzzy +icons)               ; a search engine for love and life
        vertico           ; the search engine of the future
 
        :ui
@@ -34,7 +34,7 @@
        hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        ;;hydra
        indent-guides     ; highlighted indent columns
-       ;;(ligatures +fira )         ; ligatures and symbols to make your code pretty again
+       (ligatures +fira )         ; ligatures and symbols to make your code pretty again
        ;;minimap           ; show a map of the code on the side
        modeline          ; snazzy, Atom-inspired modeline, plus API
        ;;nav-flash         ; blink cursor line after big motions
@@ -172,7 +172,7 @@
        ;;solidity          ; do you need a blockchain? No.
        ;;swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
-       web               ; the tubes
+       (web +lsp +treesitter)               ; the tubes
        yaml              ; JSON, but readable
        ;;zig               ; C, but simpler
 

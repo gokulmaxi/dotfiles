@@ -2,18 +2,21 @@
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar at the bottom of your screen
     "height": 28, // Waybar height
-    "modules-left": ["wlr/workspaces"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["tray","battery","pulseaudio",],
-    "wlr/workspaces": {
-        "format": "{icon}",
-        "format-active": " {icon} ",
-        "on-click": "activate"
-    },
-    "hyprland/window": {
-        "format": "👉 {}",
-        "separate-outputs": true
-    },
+"hyprland/workspaces": {
+	"format": "{name}: {icon}",
+	"format-icons": {
+		"1": "",
+		"2": "",
+		"3": "",
+		"4": "",
+		"5": "",
+		"active": "",
+		"default": ""
+	}
+},
     "tray": {
         "icon-size": 21,
         "spacing": 8,
